@@ -22,6 +22,11 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
   <sub>Beim Senden / While sending</sub>
 </p>
 
+<p align="center">
+  <img src="bilder/box.png" width="720" alt="Kachel Handy auf der Box: Akku, Temperatur, Laden oder Entladen / Phone tile on the box: battery, temperature, charging or discharging"><br>
+  <sub>Anzeige auf der Box: Akku, Temperatur, Laden oder Entladen / Display on the box: battery, temperature, charging or discharging</sub>
+</p>
+
 ---
 
 ## Deutsch

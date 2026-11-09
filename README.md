@@ -2,8 +2,8 @@
 
 # IRL4YOU Cam
 
-**Android-App:** Dein Android-Handy als Kamera für die IRL4YOU BOX, per USB-Kabel.
-**Android app:** Use your Android phone as a camera for the IRL4YOU BOX over a USB cable.
+**Android-App:** Dein Android-Handy als Kamera für die [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX), per USB-Kabel.
+**Android app:** Use your Android phone as a camera for the [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX) over a USB cable.
 
 Die App ist derzeit **nur für die IRL4YOU BOX** gedacht und noch eine frühe Testversion.
 The app is currently intended **for the IRL4YOU BOX only** and is an early test version.

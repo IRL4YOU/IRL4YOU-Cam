@@ -1,3 +1,5 @@
+<p align="center"><img src="bilder/logo.png" width="96" alt="IRL4YOU Cam"></p>
+
 # IRL4YOU Cam
 
 **Android-App:** Dein Android-Handy als Kamera für die IRL4YOU BOX, per USB-Kabel.
@@ -7,6 +9,18 @@ Die App ist derzeit **nur für die IRL4YOU BOX** gedacht und noch eine frühe Te
 The app is currently intended **for the IRL4YOU BOX only** and is an early test version.
 
 **Download:** [Releases](../../releases/latest) (`IRL4YOU-Cam.apk`, nur Android / Android only)
+
+## Screenshots
+
+<p align="center">
+  <img src="bilder/bedienfeld.jpg" width="720" alt="Bedienfeld: Linse, Codec, Bildrate, Bitrate / Control panel: lens, codec, frame rate, bitrate"><br>
+  <sub>Bedienfeld / Control panel</sub>
+</p>
+
+<p align="center">
+  <img src="bilder/senden.jpg" width="720" alt="Während des Sendens: Status, Akku, Strom / While sending: status, battery, current"><br>
+  <sub>Beim Senden / While sending</sub>
+</p>
 
 ---
 

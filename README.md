@@ -42,6 +42,7 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 - Handy drehen: Hochkant und Querformat, das Bild an der Box dreht ohne Unterbrechung mit
 - Läuft weiter, wenn der Bildschirm ausgeht
 - Anzeige für Akkustand, Ladezustand, Strom und Temperatur des Handys, auch auf der Box sichtbar
+- Sparsam gebaut: Das Bild kodiert der Video-Encoder des Handys (in der Regel in Hardware) und die Grafikeinheit dreht es, ohne Fremdbibliotheken, ohne Internetzugriff und mit weniger als 1 MB Größe
 
 ### Was die App nicht kann
 
@@ -94,6 +95,7 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 - Rotate the phone: portrait and landscape, the picture on the box rotates without interruption
 - Keeps running when the screen turns off
 - Shows battery level, charging state, current and temperature of the phone, also visible on the box
+- Built to be frugal: the picture is encoded by the phone's video encoder (usually in hardware) and rotated by the graphics unit, with no third-party libraries, no internet access and a size below 1 MB
 
 ### What the app does not do
 

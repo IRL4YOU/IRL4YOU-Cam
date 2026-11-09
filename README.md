@@ -56,7 +56,7 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 
 - Ein USB-Anschluss lädt das Handy oft langsamer, als die Kamera Strom braucht. Der Akku kann trotz Kabel sinken. Besser ist ein USB-Hub mit eigenem Netzteil, der Daten und Ladestrom liefert. Die Strom-Anzeige der App hilft beim Prüfen.
 - Das Handy wird bei laufender Kamera warm. Für lange Sendungen für Kühlung sorgen.
-- Voraussetzung: Android 8.0 oder neuer.
+- Voraussetzung: Android 8.0 oder neuer und eine IRL4YOU BOX ab Version 0.5.142.
 
 ### Installation
 
@@ -109,7 +109,7 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 
 - A USB port often charges the phone more slowly than the camera uses power. The battery can drop even with the cable plugged in. A USB hub with its own power supply that provides data and charging current works better. The app's current display helps to check this.
 - The phone gets warm while the camera runs. Provide cooling for long streams.
-- Requires Android 8.0 or newer.
+- Requires Android 8.0 or newer and an IRL4YOU BOX version 0.5.142 or later.
 
 ### Installation
 

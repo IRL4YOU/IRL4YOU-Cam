@@ -114,4 +114,14 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 
 ---
 
+## Hinweis zu KI
+
+Dieses Projekt wurde mit KI erstellt und wird von KI unterstützt. Code, Texte und Übersetzungen können davon stammen; sie sind nicht in jedem Fall von Menschen Zeile für Zeile geprüft. Bitte vor dem Einsatz im Livebetrieb selbst testen.
+
+## Note on AI
+
+This project was created with AI and is supported by AI. Code, texts and translations may originate from it; they are not in every case reviewed line by line by humans. Please test it yourself before using it in live operation.
+
+---
+
 [Nutzungslizenz / License](LICENSE.md) · [Datenschutz / Privacy](DATENSCHUTZ.md)

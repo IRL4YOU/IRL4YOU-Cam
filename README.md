@@ -116,11 +116,11 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 
 ## Hinweis zu KI
 
-Dieses Projekt wurde mit KI erstellt und wird von KI unterstützt. Code, Texte und Übersetzungen können davon stammen; sie sind nicht in jedem Fall von Menschen Zeile für Zeile geprüft. Bitte vor dem Einsatz im Livebetrieb selbst testen.
+Dieses Projekt entsteht mit Unterstützung von KI. Wir testen auf echten Geräten, nicht jede Zeile wird aber von Hand geprüft. Bitte vor dem Livebetrieb kurz selbst ausprobieren, und melde dich, wenn dir etwas auffällt.
 
 ## Note on AI
 
-This project was created with AI and is supported by AI. Code, texts and translations may originate from it; they are not in every case reviewed line by line by humans. Please test it yourself before using it in live operation.
+This project is made with the support of AI. We test on real devices, but not every line is reviewed by hand. Please try it out yourself briefly before going live, and get in touch if you notice anything.
 
 ---
 

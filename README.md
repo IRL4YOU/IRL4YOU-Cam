@@ -35,14 +35,16 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 
 - Bild und Ton des Handys per USB-Kabel an die Box senden, ohne WLAN
 - Video als H.264 oder H.265, bis 1080p mit 25, 30, 50 oder 60 Bildern pro Sekunde
-- Ton als AAC, Mikrofon per Knopf stumm schalten
+- Ton als AAC in Stereo oder Mono (vor dem Livegang wählbar), Mikrofon per Knopf stumm schalten
+- Pegelanzeige für den Ton am unteren Bildrand und Lautstärkeregler von −12 bis +24 dB, auch während der Übertragung
 - Bitrate wählbar, bis 10 Mbit/s
 - Hintere Linsen einzeln wählen (zum Beispiel Weitwinkel, Normal, Tele), Wechsel auf die Frontkamera, Selfie-Bild auf Wunsch gespiegelt
 - Zoomen mit zwei Fingern, über die Linsengrenzen hinweg mit automatischem Linsenwechsel (bei Handys mit Sammelkamera ohne Lücke)
 - Handy drehen: Hochkant und Querformat, das Bild an der Box dreht ohne Unterbrechung mit
 - Läuft weiter, wenn der Bildschirm ausgeht
 - Übersteht einen Neustart der Box oder kurzes Abziehen des Kabels: Die App wartet auf die Box und sendet danach von selbst weiter
-- Stopp auch über die Benachrichtigung, wenn man die Leiste von oben herunterzieht
+- Stopp auch über die Benachrichtigung, wenn man die Leiste von oben herunterzieht; ist die App nur offen, steht dort „Beenden“
+- Logs-Knopf: Ereignisse und Kamera-Info lassen sich kopieren, zum Beispiel für eine Fehlermeldung
 - Oberfläche auf Deutsch und Englisch, je nach Sprache des Handys
 - Anzeige für Akkustand, Ladezustand, Strom und Temperatur des Handys, auch auf der Box sichtbar
 - Sparsam gebaut: Das Bild kodiert der Video-Encoder des Handys (in der Regel in Hardware) und die Grafikeinheit dreht es, ohne Fremdbibliotheken, ohne Internetzugriff und mit weniger als 1 MB Größe
@@ -54,11 +56,15 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 - Kein Betrieb mit anderen Empfängern als der IRL4YOU BOX
 - Bei Handys ohne Sammelkamera entsteht beim Zoomen über eine Linsengrenze eine kurze Lücke im Bild
 - Bei 50 oder 60 Bildern pro Sekunde im Hochformat schaffen manche Handys weniger
+- Fokus und Belichtung laufen automatisch, von Hand einstellen (Antippen) geht noch nicht
+- Kein externes Mikrofon: Die App nimmt mit den eingebauten Mikrofonen des Handys auf
+- Ist die Box länger als 30 Minuten nicht erreichbar, beendet sich die App
 
 ### Gut zu wissen
 
 - Ein USB-Anschluss lädt das Handy oft langsamer, als die Kamera Strom braucht. Der Akku kann trotz Kabel sinken. Besser ist ein USB-Hub mit eigenem Netzteil, der Daten und Ladestrom liefert. Die Strom-Anzeige der App hilft beim Prüfen.
 - Das Handy wird bei laufender Kamera warm. Für lange Sendungen für Kühlung sorgen.
+- Liefert Android bei einem Handy nur einen Mikrofonkanal, sendet die App denselben Ton auf beiden Seiten.
 - Voraussetzung: Android 8.0 oder neuer und eine IRL4YOU BOX ab Version 0.5.142.
 
 ### Installation
@@ -91,14 +97,16 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 
 - Sends the phone's video and audio to the box over a USB cable, without Wi-Fi
 - Video as H.264 or H.265, up to 1080p at 25, 30, 50 or 60 frames per second
-- Audio as AAC, microphone can be muted with a button
+- Audio as AAC in stereo or mono (selectable before going live), microphone can be muted with a button
+- Level meter for the sound at the bottom edge of the picture and a volume control from −12 to +24 dB, also while streaming
 - Selectable bitrate, up to 10 Mbit/s
 - Choose rear lenses individually (for example wide, normal, tele), switch to the front camera, selfie image mirrored if wanted
 - Pinch to zoom, with automatic lens switching across lens boundaries (no gap on phones with a logical multi-camera)
 - Rotate the phone: portrait and landscape, the picture on the box rotates without interruption
 - Keeps running when the screen turns off
 - Survives a restart of the box or briefly unplugging the cable: the app waits for the box and then keeps sending by itself
-- Stop also from the notification when you pull the shade down
+- Stop also from the notification when you pull the shade down; while the app is only open it offers "Quit"
+- Logs button: events and camera info can be copied, for example for a bug report
 - Interface in German and English, depending on the phone's language
 - Shows battery level, charging state, current and temperature of the phone, also visible on the box
 - Built to be frugal: the picture is encoded by the phone's video encoder (usually in hardware) and rotated by the graphics unit, with no third-party libraries, no internet access and a size below 1 MB
@@ -110,11 +118,15 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 - Does not work with receivers other than the IRL4YOU BOX
 - On phones without a logical multi-camera, zooming across a lens boundary causes a short gap in the picture
 - At 50 or 60 frames per second in portrait, some phones deliver fewer
+- Focus and exposure are automatic, setting them by hand (tap) is not possible yet
+- No external microphone: the app records with the phone's built-in microphones
+- If the box is not reachable for more than 30 minutes, the app quits
 
 ### Good to know
 
 - A USB port often charges the phone more slowly than the camera uses power. The battery can drop even with the cable plugged in. A USB hub with its own power supply that provides data and charging current works better. The app's current display helps to check this.
 - The phone gets warm while the camera runs. Provide cooling for long streams.
+- If Android delivers only one microphone channel on a phone, the app sends the same sound on both sides.
 - Requires Android 8.0 or newer and an IRL4YOU BOX version 0.5.142 or later.
 
 ### Installation

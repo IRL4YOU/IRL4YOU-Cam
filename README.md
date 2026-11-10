@@ -38,9 +38,12 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 - Ton als AAC, Mikrofon per Knopf stumm schalten
 - Bitrate wählbar, bis 10 Mbit/s
 - Hintere Linsen einzeln wählen (zum Beispiel Weitwinkel, Normal, Tele), Wechsel auf die Frontkamera, Selfie-Bild auf Wunsch gespiegelt
-- Zoomen mit zwei Fingern, über die Linsengrenzen hinweg mit automatischem Linsenwechsel
+- Zoomen mit zwei Fingern, über die Linsengrenzen hinweg mit automatischem Linsenwechsel (bei Handys mit Sammelkamera ohne Lücke)
 - Handy drehen: Hochkant und Querformat, das Bild an der Box dreht ohne Unterbrechung mit
 - Läuft weiter, wenn der Bildschirm ausgeht
+- Übersteht einen Neustart der Box oder kurzes Abziehen des Kabels: Die App wartet auf die Box und sendet danach von selbst weiter
+- Stopp auch über die Benachrichtigung, wenn man die Leiste von oben herunterzieht
+- Oberfläche auf Deutsch und Englisch, je nach Sprache des Handys
 - Anzeige für Akkustand, Ladezustand, Strom und Temperatur des Handys, auch auf der Box sichtbar
 - Sparsam gebaut: Das Bild kodiert der Video-Encoder des Handys (in der Regel in Hardware) und die Grafikeinheit dreht es, ohne Fremdbibliotheken, ohne Internetzugriff und mit weniger als 1 MB Größe
 
@@ -49,7 +52,7 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 - Kein Senden über WLAN, Mobilfunk oder Internet (RTMP, SRT oder ähnlich), nur USB zur IRL4YOU BOX
 - Keine Aufnahme auf dem Handy, keine Filter, keine Effekte, keine Einblendungen
 - Kein Betrieb mit anderen Empfängern als der IRL4YOU BOX
-- Beim Zoomen über eine Linsengrenze entsteht beim Senden eine kurze Lücke im Bild
+- Bei Handys ohne Sammelkamera entsteht beim Zoomen über eine Linsengrenze eine kurze Lücke im Bild
 - Bei 50 oder 60 Bildern pro Sekunde im Hochformat schaffen manche Handys weniger
 
 ### Gut zu wissen
@@ -91,9 +94,12 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 - Audio as AAC, microphone can be muted with a button
 - Selectable bitrate, up to 10 Mbit/s
 - Choose rear lenses individually (for example wide, normal, tele), switch to the front camera, selfie image mirrored if wanted
-- Pinch to zoom, with automatic lens switching across lens boundaries
+- Pinch to zoom, with automatic lens switching across lens boundaries (no gap on phones with a logical multi-camera)
 - Rotate the phone: portrait and landscape, the picture on the box rotates without interruption
 - Keeps running when the screen turns off
+- Survives a restart of the box or briefly unplugging the cable: the app waits for the box and then keeps sending by itself
+- Stop also from the notification when you pull the shade down
+- Interface in German and English, depending on the phone's language
 - Shows battery level, charging state, current and temperature of the phone, also visible on the box
 - Built to be frugal: the picture is encoded by the phone's video encoder (usually in hardware) and rotated by the graphics unit, with no third-party libraries, no internet access and a size below 1 MB
 
@@ -102,7 +108,7 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 - No sending over Wi-Fi, mobile data or the internet (RTMP, SRT or similar), only USB to the IRL4YOU BOX
 - No recording on the phone, no filters, no effects, no overlays
 - Does not work with receivers other than the IRL4YOU BOX
-- Zooming across a lens boundary causes a short gap in the picture while sending
+- On phones without a logical multi-camera, zooming across a lens boundary causes a short gap in the picture
 - At 50 or 60 frames per second in portrait, some phones deliver fewer
 
 ### Good to know

@@ -44,11 +44,11 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 
 - Bild und Ton des Handys per USB-Kabel an die Box senden, ohne WLAN
 - Alternativ per RTMP, RTMPS, SRT oder SRTLA an einen Server senden (zum Beispiel Twitch, YouTube oder ein eigener Server): Adresse im Menü, bei RTMP mit Stream-Key, bei SRT mit Stream-ID, Passphrase (Verschlüsselung) und Latenz; bricht die Verbindung ab, verbindet die App von selbst neu (nur in der Net-Fassung)
-- Mehrere Verbindungen speichern (je mit eigenem Namen und Kurzinfo in der Liste), eine anhaken und senden; die Net-Fassung merkt sich Adresse, Key und Netze je Verbindung
+- Mehrere Verbindungen speichern (eigene Seite, je mit Namen und Kurzinfo), eine anhaken und senden; die Net-Fassung merkt sich Adresse, Key und Netze je Verbindung. Beim Senden bleibt die Verbindungsseite gesperrt, damit nichts Privates auf dem Bildschirm steht
 - SRTLA bündelt WLAN, Mobilfunk und ein USB-Netz (Ethernet-Adapter, USB-Router oder USB-Tethering eines zweiten Handys) gleichzeitig zu einem Strom; fällt ein Netz weg, läuft der Strom über die anderen weiter. Je Netz einstellbare Priorität (1 bis 10, wirkt nur bei stabilem Netz), Anzeige von Anteil und Laufzeit je Netz
 - Bei SRT und SRTLA passt die App die Videobitrate selbst an die Laufzeit und die Zahl der Pakete unterwegs an (nie über der gewählten Bitrate)
 - Video als H.264 oder H.265, bis 1080p mit 25, 30, 50 oder 60 Bildern pro Sekunde
-- Ton als AAC in Stereo oder Mono (vor dem Livegang wählbar), Mikrofon per Knopf stumm schalten
+- Ton als AAC in Stereo oder Mono (vor dem Livegang wählbar), Mikrofon per Knopf stumm schalten; das Menü ist auch im Querformat erreichbar
 - Pegelanzeige für den Ton am unteren Bildrand und Lautstärkeregler von −12 bis +24 dB, auch während der Übertragung
 - Bitrate wählbar, bis 10 Mbit/s (bei RTMP und SRT ab 1 Mbit/s); im Netz senkt die App die Datenrate selbst, wenn es zu langsam wird
 - Hintere Linsen einzeln wählen (zum Beispiel Weitwinkel, Normal, Tele), Wechsel auf die Frontkamera, Selfie-Bild auf Wunsch gespiegelt
@@ -72,7 +72,7 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - Bei Handys ohne Sammelkamera entsteht beim Zoomen über eine Linsengrenze eine kurze Lücke im Bild
 - Bei 50 oder 60 Bildern pro Sekunde im Hochformat schaffen manche Handys weniger
 - Fokus und Belichtung laufen automatisch, von Hand einstellen (Antippen) geht noch nicht
-- Kein externes Mikrofon: Die App nimmt mit den eingebauten Mikrofonen des Handys auf
+- Externes Mikrofon (USB, Kabel, Bluetooth) nur in der Net-Fassung, im Menü wählbar; die einfache Fassung nimmt mit den eingebauten Mikrofonen auf, weil der USB-Anschluss an der Box hängt
 - Ist die Box länger als 30 Minuten nicht erreichbar, beendet sich die App
 
 ### Gut zu wissen
@@ -112,11 +112,11 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 
 - Sends the phone's video and audio to the box over a USB cable, without Wi-Fi
 - Alternatively sends over RTMP, RTMPS, SRT or SRTLA to a server (for example Twitch, YouTube or your own server): address in the menu, with a stream key for RTMP, with stream ID, passphrase (encryption) and latency for SRT; if the connection drops, the app reconnects by itself (Net version only)
-- Save several connections (each with its own name and a short summary in the list), tick one and send; the Net version remembers address, key and networks per connection
+- Save several connections (own page, each with a name and a short summary), tick one and send; the Net version remembers address, key and networks per connection. While sending, the connections page stays locked so nothing private is on screen
 - SRTLA bonds Wi-Fi, mobile data and a USB network (Ethernet adapter, USB router or USB tethering from a second phone) into one stream; if one network drops, the stream continues over the others. Priority per network (1 to 10, only effective while the network is stable), share and round-trip time per network shown
 - With SRT and SRTLA the app adapts the video bitrate itself to round-trip time and packets in flight (never above the chosen bitrate)
 - Video as H.264 or H.265, up to 1080p at 25, 30, 50 or 60 frames per second
-- Audio as AAC in stereo or mono (selectable before going live), microphone can be muted with a button
+- Audio as AAC in stereo or mono (selectable before going live), microphone can be muted with a button; the menu is also reachable in landscape
 - Level meter for the sound at the bottom edge of the picture and a volume control from −12 to +24 dB, also while streaming
 - Selectable bitrate, up to 10 Mbit/s (from 1 Mbit/s with RTMP and SRT); over the network the app lowers the data rate by itself when it is too slow
 - Choose rear lenses individually (for example wide, normal, tele), switch to the front camera, selfie image mirrored if wanted
@@ -140,7 +140,7 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - On phones without a logical multi-camera, zooming across a lens boundary causes a short gap in the picture
 - At 50 or 60 frames per second in portrait, some phones deliver fewer
 - Focus and exposure are automatic, setting them by hand (tap) is not possible yet
-- No external microphone: the app records with the phone's built-in microphones
+- External microphone (USB, cable, Bluetooth) only in the Net version, selectable in the menu; the simple version records with the built-in microphones because the USB port is used for the box
 - If the box is not reachable for more than 30 minutes, the app quits
 
 ### Good to know

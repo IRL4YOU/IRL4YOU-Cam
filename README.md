@@ -1,18 +1,21 @@
 <p align="center"><img src="bilder/logo.png" width="96" alt="IRL4YOU Cam"></p>
 
-# IRL4YOU Cam
+# IRL4YOU Cam und IRL4YOU Cam Net
 
-**Android-App:** Dein Android-Handy als Kamera für die [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX), per USB-Kabel.
-**Android app:** Use your Android phone as a camera for the [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX) over a USB cable.
+**In diesem Repository liegen zwei Android-Apps.** Beide machen dein Android-Handy zur Kamera für die [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX); die Net-Fassung kann zusätzlich direkt an Server senden.
+**This repository contains two Android apps.** Both turn your Android phone into a camera for the [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX); the Net version can also send directly to servers.
 
-IRL4YOU Cam ist **für die IRL4YOU BOX** gedacht, die Net-Fassung sendet zusätzlich an eigene Server. Beide sind noch frühe Testversionen.
-IRL4YOU Cam is intended **for the IRL4YOU BOX**; the Net version also sends to your own servers. Both are still early test versions.
+| | **IRL4YOU Cam** | **IRL4YOU Cam Net** |
+|---|---|---|
+| Datei / File | `IRL4YOU-Cam.apk` | `IRL4YOU-Cam-Net.apk` |
+| Sendet an / Sends to | IRL4YOU BOX per USB-Kabel / via USB cable | USB-Box und zusätzlich RTMP, RTMPS, SRT, SRTLA / USB box plus RTMP, RTMPS, SRT, SRTLA |
+| Internet-Berechtigung / Internet permission | nein / no | ja / yes |
+| Gedacht für / Meant for | die einfache Fassung, nur mit der BOX / the simple version, BOX only | wer auch an eigene Server oder mehrere Netze senden will / for sending to your own servers or over several networks |
 
-**Download:** [Releases](../../releases/latest) (`IRL4YOU-Cam.apk` und `IRL4YOU-Cam-Net.apk`, nur Android / Android only)
+Beide lassen sich nebeneinander installieren (eigene App-Kennung) und haben getrennte Versionsnummern. Beide sind noch frühe Testversionen.
+Both can be installed side by side (separate app ID) and have separate version numbers. Both are still early test versions.
 
-**Zwei Fassungen / Two versions:**
-- **IRL4YOU Cam** (`IRL4YOU-Cam.apk`): nur USB zur Box, ohne Internet-Berechtigung, die kleine einfache Fassung. / USB to the box only, no internet permission, the small simple version.
-- **IRL4YOU Cam Net** (`IRL4YOU-Cam-Net.apk`): kann zusätzlich RTMP, SRT und SRTLA (und weiterhin USB). Eigene App-Kennung, beide lassen sich nebeneinander installieren. / Adds RTMP, SRT and SRTLA (and still USB). Separate app ID, both can be installed side by side.
+**Download:** [Releases](../../releases/latest), dort liegen immer beide Dateien (nur Android) / both files are always there (Android only)
 
 Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-Ziele. / The description below covers the Net version; the simple one has no server targets.
 

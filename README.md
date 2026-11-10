@@ -68,6 +68,7 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - Keine Aufnahme auf dem Handy, keine Filter, keine Effekte, keine Einblendungen
 - Per USB nur mit der IRL4YOU BOX
 - H.265 per RTMP nur bei Servern mit Enhanced RTMP; wer sicher gehen will, nimmt H.264
+- **Mit VPN (zum Beispiel Tailscale)** schickt Android auch die Net-App durch das VPN, wenn die VPN-App alles umleitet (etwa mit einem Exit-Node). Dann meldet die App „Server antwortet nicht“. Lösung: die App in der VPN-App vom VPN ausnehmen. Bei Tailscale (ab Version 1.70): Profilbild antippen, „App-based split tunneling“ wählen und „IRL4YOU Cam Net“ anhaken. Andere VPN-Apps haben dafür „Split Tunneling“ oder „Apps ausnehmen“. Alternativ das VPN zum Senden ausschalten.
 - Dreht man das Handy während einer Übertragung ins Netz zwischen Hoch- und Querformat, ändert sich die Bildgröße, und manche Server verkraften das nicht
 - Bei Handys ohne Sammelkamera entsteht beim Zoomen über eine Linsengrenze eine kurze Lücke im Bild
 - Bei 50 oder 60 Bildern pro Sekunde im Hochformat schaffen manche Handys weniger
@@ -136,6 +137,7 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - No recording on the phone, no filters, no effects, no overlays
 - Over USB it works only with the IRL4YOU BOX
 - H.265 over RTMP only with servers that support Enhanced RTMP; choose H.264 to be safe
+- **With a VPN (for example Tailscale)** Android also sends the Net app through the VPN when the VPN app redirects everything (for example with an exit node). The app then reports "Server antwortet nicht" (server does not answer). Fix: exclude the app from the VPN in the VPN app. With Tailscale (version 1.70 or later): tap your profile picture, choose "App-based split tunneling" and tick "IRL4YOU Cam Net". Other VPN apps call this "split tunneling" or "exclude apps". Alternatively turn the VPN off while sending.
 - Rotating the phone between portrait and landscape during a stream over the network changes the picture size, and some servers cannot handle that
 - On phones without a logical multi-camera, zooming across a lens boundary causes a short gap in the picture
 - At 50 or 60 frames per second in portrait, some phones deliver fewer

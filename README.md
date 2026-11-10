@@ -5,10 +5,16 @@
 **Android-App:** Dein Android-Handy als Kamera für die [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX), per USB-Kabel.
 **Android app:** Use your Android phone as a camera for the [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX) over a USB cable.
 
-Die App ist derzeit **nur für die IRL4YOU BOX** gedacht und noch eine frühe Testversion.
-The app is currently intended **for the IRL4YOU BOX only** and is an early test version.
+IRL4YOU Cam ist **für die IRL4YOU BOX** gedacht, die Net-Fassung sendet zusätzlich an eigene Server. Beide sind noch frühe Testversionen.
+IRL4YOU Cam is intended **for the IRL4YOU BOX**; the Net version also sends to your own servers. Both are still early test versions.
 
-**Download:** [Releases](../../releases/latest) (`IRL4YOU-Cam.apk`, nur Android / Android only)
+**Download:** [Releases](../../releases/latest) (`IRL4YOU-Cam.apk` und `IRL4YOU-Cam-Net.apk`, nur Android / Android only)
+
+**Zwei Fassungen / Two versions:**
+- **IRL4YOU Cam** (`IRL4YOU-Cam.apk`): nur USB zur Box, ohne Internet-Berechtigung, die kleine einfache Fassung. / USB to the box only, no internet permission, the small simple version.
+- **IRL4YOU Cam Net** (`IRL4YOU-Cam-Net.apk`): kann zusätzlich RTMP, SRT und SRTLA (und weiterhin USB). Eigene App-Kennung, beide lassen sich nebeneinander installieren. / Adds RTMP, SRT and SRTLA (and still USB). Separate app ID, both can be installed side by side.
+
+Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-Ziele. / The description below covers the Net version; the simple one has no server targets.
 
 ## Screenshots
 
@@ -34,10 +40,14 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 ### Was die App kann
 
 - Bild und Ton des Handys per USB-Kabel an die Box senden, ohne WLAN
+- Alternativ per RTMP, RTMPS, SRT oder SRTLA an einen Server senden (zum Beispiel Twitch, YouTube oder ein eigener Server): Adresse im Menü, bei RTMP mit Stream-Key, bei SRT mit Stream-ID, Passphrase (Verschlüsselung) und Latenz; bricht die Verbindung ab, verbindet die App von selbst neu (nur in der Net-Fassung)
+- Mehrere Verbindungen speichern (je mit eigenem Namen und Kurzinfo in der Liste), eine anhaken und senden; die Net-Fassung merkt sich Adresse, Key und Netze je Verbindung
+- SRTLA bündelt WLAN, Mobilfunk und ein USB-Netz (Ethernet-Adapter, USB-Router oder USB-Tethering eines zweiten Handys) gleichzeitig zu einem Strom; fällt ein Netz weg, läuft der Strom über die anderen weiter. Je Netz einstellbare Priorität (1 bis 10, wirkt nur bei stabilem Netz), Anzeige von Anteil und Laufzeit je Netz
+- Bei SRT und SRTLA passt die App die Videobitrate selbst an die Laufzeit und die Zahl der Pakete unterwegs an (nie über der gewählten Bitrate)
 - Video als H.264 oder H.265, bis 1080p mit 25, 30, 50 oder 60 Bildern pro Sekunde
 - Ton als AAC in Stereo oder Mono (vor dem Livegang wählbar), Mikrofon per Knopf stumm schalten
 - Pegelanzeige für den Ton am unteren Bildrand und Lautstärkeregler von −12 bis +24 dB, auch während der Übertragung
-- Bitrate wählbar, bis 10 Mbit/s
+- Bitrate wählbar, bis 10 Mbit/s (bei RTMP und SRT ab 1 Mbit/s); im Netz senkt die App die Datenrate selbst, wenn es zu langsam wird
 - Hintere Linsen einzeln wählen (zum Beispiel Weitwinkel, Normal, Tele), Wechsel auf die Frontkamera, Selfie-Bild auf Wunsch gespiegelt
 - Zoomen mit zwei Fingern, über die Linsengrenzen hinweg mit automatischem Linsenwechsel (bei Handys mit Sammelkamera ohne Lücke)
 - Handy drehen: Hochkant und Querformat, das Bild an der Box dreht ohne Unterbrechung mit
@@ -47,13 +57,15 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 - Logs-Knopf: Ereignisse und Kamera-Info lassen sich kopieren, zum Beispiel für eine Fehlermeldung
 - Oberfläche auf Deutsch und Englisch, je nach Sprache des Handys
 - Anzeige für Akkustand, Ladezustand, Strom und Temperatur des Handys, auch auf der Box sichtbar
-- Sparsam gebaut: Das Bild kodiert der Video-Encoder des Handys (in der Regel in Hardware) und die Grafikeinheit dreht es, ohne Fremdbibliotheken, ohne Internetzugriff und mit weniger als 1 MB Größe
+- Sparsam gebaut: Das Bild kodiert der Video-Encoder des Handys (in der Regel in Hardware) und die Grafikeinheit dreht es, ohne Fremdbibliotheken und mit weniger als 1 MB Größe; den Internetzugriff braucht nur die Net-Fassung
 
 ### Was die App nicht kann
 
-- Kein Senden über WLAN, Mobilfunk oder Internet (RTMP, SRT oder ähnlich), nur USB zur IRL4YOU BOX
+- Über WLAN oder Mobilfunk geht nur in der Net-Fassung etwas: RTMP, RTMPS, SRT oder SRTLA
 - Keine Aufnahme auf dem Handy, keine Filter, keine Effekte, keine Einblendungen
-- Kein Betrieb mit anderen Empfängern als der IRL4YOU BOX
+- Per USB nur mit der IRL4YOU BOX
+- H.265 per RTMP nur bei Servern mit Enhanced RTMP; wer sicher gehen will, nimmt H.264
+- Dreht man das Handy während einer Übertragung ins Netz zwischen Hoch- und Querformat, ändert sich die Bildgröße, und manche Server verkraften das nicht
 - Bei Handys ohne Sammelkamera entsteht beim Zoomen über eine Linsengrenze eine kurze Lücke im Bild
 - Bei 50 oder 60 Bildern pro Sekunde im Hochformat schaffen manche Handys weniger
 - Fokus und Belichtung laufen automatisch, von Hand einstellen (Antippen) geht noch nicht
@@ -96,10 +108,14 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 ### What the app does
 
 - Sends the phone's video and audio to the box over a USB cable, without Wi-Fi
+- Alternatively sends over RTMP, RTMPS, SRT or SRTLA to a server (for example Twitch, YouTube or your own server): address in the menu, with a stream key for RTMP, with stream ID, passphrase (encryption) and latency for SRT; if the connection drops, the app reconnects by itself (Net version only)
+- Save several connections (each with its own name and a short summary in the list), tick one and send; the Net version remembers address, key and networks per connection
+- SRTLA bonds Wi-Fi, mobile data and a USB network (Ethernet adapter, USB router or USB tethering from a second phone) into one stream; if one network drops, the stream continues over the others. Priority per network (1 to 10, only effective while the network is stable), share and round-trip time per network shown
+- With SRT and SRTLA the app adapts the video bitrate itself to round-trip time and packets in flight (never above the chosen bitrate)
 - Video as H.264 or H.265, up to 1080p at 25, 30, 50 or 60 frames per second
 - Audio as AAC in stereo or mono (selectable before going live), microphone can be muted with a button
 - Level meter for the sound at the bottom edge of the picture and a volume control from −12 to +24 dB, also while streaming
-- Selectable bitrate, up to 10 Mbit/s
+- Selectable bitrate, up to 10 Mbit/s (from 1 Mbit/s with RTMP and SRT); over the network the app lowers the data rate by itself when it is too slow
 - Choose rear lenses individually (for example wide, normal, tele), switch to the front camera, selfie image mirrored if wanted
 - Pinch to zoom, with automatic lens switching across lens boundaries (no gap on phones with a logical multi-camera)
 - Rotate the phone: portrait and landscape, the picture on the box rotates without interruption
@@ -109,13 +125,15 @@ The app is currently intended **for the IRL4YOU BOX only** and is an early test 
 - Logs button: events and camera info can be copied, for example for a bug report
 - Interface in German and English, depending on the phone's language
 - Shows battery level, charging state, current and temperature of the phone, also visible on the box
-- Built to be frugal: the picture is encoded by the phone's video encoder (usually in hardware) and rotated by the graphics unit, with no third-party libraries, no internet access and a size below 1 MB
+- Built to be frugal: the picture is encoded by the phone's video encoder (usually in hardware) and rotated by the graphics unit, with no third-party libraries and a size below 1 MB; only the Net version needs internet access
 
 ### What the app does not do
 
-- No sending over Wi-Fi, mobile data or the internet (RTMP, SRT or similar), only USB to the IRL4YOU BOX
+- Over Wi-Fi or mobile data only the Net version does something: RTMP, RTMPS, SRT or SRTLA
 - No recording on the phone, no filters, no effects, no overlays
-- Does not work with receivers other than the IRL4YOU BOX
+- Over USB it works only with the IRL4YOU BOX
+- H.265 over RTMP only with servers that support Enhanced RTMP; choose H.264 to be safe
+- Rotating the phone between portrait and landscape during a stream over the network changes the picture size, and some servers cannot handle that
 - On phones without a logical multi-camera, zooming across a lens boundary causes a short gap in the picture
 - At 50 or 60 frames per second in portrait, some phones deliver fewer
 - Focus and exposure are automatic, setting them by hand (tap) is not possible yet

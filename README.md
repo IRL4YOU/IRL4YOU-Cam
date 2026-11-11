@@ -48,7 +48,8 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - Einstellungen sichern: Verbindungen und Einstellungen in eine Datei schreiben, mit Passwort verschlüsselt (nur Bordmittel von Android), und auf dem nächsten Handy wiederherstellen (Knöpfe unten auf der Verbindungsseite)
 - Mehrere Verbindungen speichern (eigene Seite, je mit Namen und Kurzinfo), eine anhaken und senden; die Net-Fassung merkt sich Adresse, Key und Netze je Verbindung. Beim Senden bleibt die Verbindungsseite gesperrt, damit nichts Privates auf dem Bildschirm steht
 - SRTLA bündelt WLAN, Mobilfunk und ein USB-Netz (Ethernet-Adapter, USB-Router oder USB-Tethering eines zweiten Handys) gleichzeitig zu einem Strom; fällt ein Netz weg, läuft der Strom über die anderen weiter. Je Netz einstellbare Priorität (1 bis 10, wirkt nur bei stabilem Netz), Anzeige von Anteil und Laufzeit je Netz
-- Bei SRT und SRTLA passt die App die Videobitrate selbst an die Laufzeit und die Zahl der Pakete unterwegs an (nie über der gewählten Bitrate)
+- Bei SRT und SRTLA passt die App die Videobitrate schnell selbst an Laufzeit, Pakete unterwegs und Verluste an, senkt bei Einbrüchen sofort und kehrt danach zügig zurück (nie über der gewählten Bitrate)
+- Bildschärfe wählbar (Standard oder schärfer, mit weniger oder stärkerer Rauschglättung der Kamera)
 - Video als H.264 oder H.265, bis 1080p mit 25, 30, 50 oder 60 Bildern pro Sekunde
 - Ton als AAC in Stereo oder Mono (vor dem Livegang wählbar), Mikrofon per Knopf stumm schalten; das Menü ist auch im Querformat erreichbar
 - Pegelanzeige für den Ton am unteren Bildrand und Lautstärkeregler von −12 bis +24 dB, auch während der Übertragung
@@ -119,7 +120,8 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - Back up settings: write connections and settings to one file, encrypted with a password (Android built-ins only), and restore them on the next phone (buttons at the bottom of the connections page)
 - Save several connections (own page, each with a name and a short summary), tick one and send; the Net version remembers address, key and networks per connection. While sending, the connections page stays locked so nothing private is on screen
 - SRTLA bonds Wi-Fi, mobile data and a USB network (Ethernet adapter, USB router or USB tethering from a second phone) into one stream; if one network drops, the stream continues over the others. Priority per network (1 to 10, only effective while the network is stable), share and round-trip time per network shown
-- With SRT and SRTLA the app adapts the video bitrate itself to round-trip time and packets in flight (never above the chosen bitrate)
+- With SRT and SRTLA the app quickly adapts the video bitrate itself to round-trip time, packets in flight and losses, drops at once on a dip and returns fast afterwards (never above the chosen bitrate)
+- Selectable picture sharpness (standard or sharper, with less or stronger camera noise smoothing)
 - Video as H.264 or H.265, up to 1080p at 25, 30, 50 or 60 frames per second
 - Audio as AAC in stereo or mono (selectable before going live), microphone can be muted with a button; the menu is also reachable in landscape
 - Level meter for the sound at the bottom edge of the picture and a volume control from −12 to +24 dB, also while streaming

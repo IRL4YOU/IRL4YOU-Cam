@@ -5,7 +5,7 @@
 **In diesem Repository liegen zwei Android-Apps.** Beide machen dein Android-Handy zur Kamera für die [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX); die Net-Fassung kann zusätzlich direkt an Server senden.
 **This repository contains two Android apps.** Both turn your Android phone into a camera for the [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX); the Net version can also send directly to servers.
 
-| | **IRL4YOU Cam** | **IRL4YOU Cam Net** |
+| | <img src="bilder/logo-cam.png" width="56" alt=""><br>**IRL4YOU Cam** | <img src="bilder/logo-net.png" width="56" alt=""><br>**IRL4YOU Cam Net** |
 |---|---|---|
 | Datei / File | `IRL4YOU-Cam.apk` | `IRL4YOU-Cam-Net.apk` |
 | Sendet an / Sends to | IRL4YOU BOX per USB-Kabel / via USB cable | USB-Box und zusätzlich RTMP, RTMPS, SRT, SRTLA / USB box plus RTMP, RTMPS, SRT, SRTLA |

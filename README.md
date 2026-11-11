@@ -12,8 +12,8 @@
 | Internet-Berechtigung / Internet permission | nein / no | ja / yes |
 | Gedacht für / Meant for | die einfache Fassung, nur mit der BOX / the simple version, BOX only | wer auch an eigene Server oder mehrere Netze senden will / for sending to your own servers or over several networks |
 
-Beide lassen sich nebeneinander installieren (eigene App-Kennung) und haben getrennte Versionsnummern. Beide sind noch frühe Testversionen.
-Both can be installed side by side (separate app ID) and have separate version numbers. Both are still early test versions.
+Beide lassen sich nebeneinander installieren (eigene App-Kennung) und haben getrennte Versionsnummern.
+Both can be installed side by side (separate app ID) and have separate version numbers.
 
 **Download:** [Releases](../../releases/latest), dort liegen immer beide Dateien (nur Android) / both files are always there (Android only)
 

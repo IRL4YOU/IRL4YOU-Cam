@@ -53,6 +53,7 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - Video als H.264 oder H.265, bis 1080p mit 25, 30, 50 oder 60 Bildern pro Sekunde
 - Ton als AAC in Stereo oder Mono (vor dem Livegang wählbar), Mikrofon per Knopf stumm schalten; das Menü ist auch im Querformat erreichbar
 - Pegelanzeige für den Ton am unteren Bildrand und Lautstärkeregler von −12 bis +24 dB, auch während der Übertragung
+- Vollbild: Die Vorschau füllt den ganzen Bildschirm (abschaltbar, gesendet wird immer das volle Bild); die Akkuanzeige färbt Laden grün, leichtes Entladen orange und starkes Entladen rot
 - Bitrate wählbar, bis 10 Mbit/s (bei RTMP und SRT ab 1 Mbit/s); im Netz senkt die App die Datenrate selbst, wenn es zu langsam wird
 - Hintere Linsen einzeln wählen (zum Beispiel Weitwinkel, Normal, Tele), Wechsel auf die Frontkamera, Selfie-Bild auf Wunsch gespiegelt
 - Zoomen mit zwei Fingern, über die Linsengrenzen hinweg mit automatischem Linsenwechsel (bei Handys mit Sammelkamera ohne Lücke)
@@ -125,6 +126,7 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - Video as H.264 or H.265, up to 1080p at 25, 30, 50 or 60 frames per second
 - Audio as AAC in stereo or mono (selectable before going live), microphone can be muted with a button; the menu is also reachable in landscape
 - Level meter for the sound at the bottom edge of the picture and a volume control from −12 to +24 dB, also while streaming
+- Full screen: the preview fills the whole screen (can be switched off, the full picture is always sent); the battery display shows charging in green, light discharge in orange and strong discharge in red
 - Selectable bitrate, up to 10 Mbit/s (from 1 Mbit/s with RTMP and SRT); over the network the app lowers the data rate by itself when it is too slow
 - Choose rear lenses individually (for example wide, normal, tele), switch to the front camera, selfie image mirrored if wanted
 - Pinch to zoom, with automatic lens switching across lens boundaries (no gap on phones with a logical multi-camera)

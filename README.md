@@ -83,7 +83,7 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 ### Gut zu wissen
 
 - Ein USB-Anschluss lädt das Handy oft langsamer, als die Kamera Strom braucht. Der Akku kann trotz Kabel sinken. Besser ist ein USB-Hub mit eigenem Netzteil, der Daten und Ladestrom liefert. Die Strom-Anzeige der App hilft beim Prüfen.
-- Das Handy wird bei laufender Kamera warm. Wird es zu warm, zuerst die Vorschau ausschalten: Gesendet wird weiter, aber Grafik und Display haben weniger zu tun. Reicht das nicht, 30 statt 60 Bilder pro Sekunde wählen. Nicht jedes Handy schafft 60 Bilder auf Dauer. Die Temperaturanzeige färbt sich, sobald das Handy selbst meldet, dass es drosselt. Für lange Sendungen zusätzlich für Kühlung sorgen.
+- Das Handy wird bei laufender Kamera warm. Wird es zu warm, zuerst die Vorschau ausschalten: Gesendet wird weiter, aber Grafik und Display haben weniger zu tun. Reicht das nicht, 30 statt 60 Bilder pro Sekunde wählen. Nicht jedes Handy schafft 60 Bilder auf Dauer. Die Temperaturanzeige färbt sich, sobald das Handy selbst meldet, dass es drosselt. Für längere Streams zusätzlich für Kühlung sorgen.
 - Liefert Android bei einem Handy nur einen Mikrofonkanal, sendet die App denselben Ton auf beiden Seiten.
 - Voraussetzung: Android 8.0 oder neuer und eine IRL4YOU BOX ab Version 0.5.142.
 
@@ -164,7 +164,7 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 ### Good to know
 
 - A USB port often charges the phone more slowly than the camera uses power. The battery can drop even with the cable plugged in. A USB hub with its own power supply that provides data and charging current works better. The app's current display helps to check this.
-- The phone gets warm while the camera runs. If it gets too warm, switch off the preview first: the stream goes on, but graphics and display have less to do. If that is not enough, choose 30 instead of 60 frames per second. Not every phone can keep up 60 frames for long. The temperature display is coloured as soon as the phone itself reports that it is throttling. For long streams, provide extra cooling as well.
+- The phone gets warm while the camera runs. If it gets too warm, switch off the preview first: the stream goes on, but graphics and display have less to do. If that is not enough, choose 30 instead of 60 frames per second. Not every phone can keep up 60 frames for long. The temperature display is coloured as soon as the phone itself reports that it is throttling. For longer streams, provide extra cooling as well.
 - If Android delivers only one microphone channel on a phone, the app sends the same sound on both sides.
 - Requires Android 8.0 or newer and an IRL4YOU BOX version 0.5.142 or later.
 

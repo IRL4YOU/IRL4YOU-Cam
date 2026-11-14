@@ -94,6 +94,7 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - Hilfshandy: `IRL4YOU-Cam-Link.apk` installieren, Passwort festlegen und „Start“ drücken. Die App läuft im Hintergrund weiter, das Handy bleibt für anderes frei
 - Sendehandy (Net-Fassung): SRTLA wählen, „Cam Link“ anhaken und dasselbe Passwort eintragen. Die App findet das Hilfshandy von selbst und zeigt es als Netz „Link“
 - Cam Link braucht weder Kamera noch Mikrofon. Das Passwort wird nicht übertragen; ändere das voreingestellte Passwort, wenn du ein fremdes WLAN benutzt
+- **iPhone-Hotspot:** Auch dort läuft es. Der Hotspot gibt Android-Handys oft keine IPv4-Adresse und lässt sie nur über IPv6 miteinander reden; Cam Link sucht deshalb zusätzlich per IPv6 und nutzt es automatisch, es muss nichts eingetragen werden. Ob es klappt, hängt vom Hotspot ab. In Cam Link zeigt die Zeile „Adresse dieses Handys“ alle Adressen des WLANs
 
 ### Installation
 
@@ -175,6 +176,7 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - Helper phone: install `IRL4YOU-Cam-Link.apk`, set a password and tap "Start". The app keeps running in the background, the phone stays free for other things
 - Sending phone (Net version): choose SRTLA, tick "Cam Link" and enter the same password. The app finds the helper phone by itself and shows it as the network "Link"
 - Cam Link needs neither camera nor microphone. The password is never transmitted; change the preset password when you use a Wi-Fi that is not your own
+- **iPhone hotspot:** It works there too. The hotspot often gives Android phones no IPv4 address and lets them talk to each other over IPv6 only; Cam Link therefore also searches over IPv6 and uses it automatically, nothing has to be entered. Whether it works depends on the hotspot. In Cam Link the line "Address of this phone" shows all addresses of the Wi-Fi
 
 ### Installation
 

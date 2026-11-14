@@ -48,12 +48,12 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - Einstellungen sichern: Verbindungen und Einstellungen in eine Datei schreiben, mit Passwort verschlüsselt (nur Bordmittel von Android), und auf dem nächsten Handy wiederherstellen (Knöpfe unten auf der Verbindungsseite)
 - Mehrere Verbindungen speichern (eigene Seite, je mit Namen und Kurzinfo), eine anhaken und senden; die Net-Fassung merkt sich Adresse, Key und Netze je Verbindung. Beim Senden bleibt die Verbindungsseite gesperrt, damit nichts Privates auf dem Bildschirm steht
 - SRTLA bündelt WLAN, Mobilfunk und ein USB-Netz (Ethernet-Adapter, USB-Router oder USB-Tethering eines zweiten Handys) gleichzeitig zu einem Strom; fällt ein Netz weg, läuft der Strom über die anderen weiter. Je Netz einstellbare Priorität (1 bis 10, wirkt nur bei stabilem Netz), Anzeige von Anteil und Laufzeit je Netz
-- Bei SRT und SRTLA passt die App die Videobitrate schnell selbst an Laufzeit, Pakete unterwegs und Verluste an, senkt bei Einbrüchen sofort und kehrt danach zügig zurück (nie über der gewählten Bitrate)
+- Bei SRT und SRTLA passt die App die Videobitrate schnell selbst an Laufzeit und Pakete unterwegs an, senkt bei Einbrüchen sofort und kehrt danach zügig zurück (nie über der gewählten Bitrate); der Ton hat dabei Vorrang vor dem Bild
 - Bildschärfe wählbar (Standard oder schärfer, mit weniger oder stärkerer Rauschglättung der Kamera)
 - Video als H.264 oder H.265, bis 1080p mit 25, 30, 50 oder 60 Bildern pro Sekunde
 - Ton als AAC in Stereo oder Mono (vor dem Livegang wählbar), Mikrofon per Knopf stumm schalten; das Menü ist auch im Querformat erreichbar
 - Pegelanzeige für den Ton am unteren Bildrand und Lautstärkeregler von −12 bis +24 dB, auch während der Übertragung
-- Vollbild: Die Vorschau füllt den ganzen Bildschirm (abschaltbar, gesendet wird immer das volle Bild); die Akkuanzeige färbt Laden grün, leichtes Entladen orange und starkes Entladen rot
+- Vollbild: Die Vorschau füllt den ganzen Bildschirm (abschaltbar, gesendet wird immer das volle Bild); die Akkuanzeige zeigt „lädt“ grün und „sinkt“ orange oder rot; die Temperatur färbt sich, sobald das Handy selbst meldet, dass es wegen Hitze drosselt
 - Bitrate wählbar, bis 10 Mbit/s (bei RTMP und SRT ab 1 Mbit/s); im Netz senkt die App die Datenrate selbst, wenn es zu langsam wird
 - Hintere Linsen einzeln wählen (zum Beispiel Weitwinkel, Normal, Tele), Wechsel auf die Frontkamera, Selfie-Bild auf Wunsch gespiegelt
 - Zoomen mit zwei Fingern, über die Linsengrenzen hinweg mit automatischem Linsenwechsel (bei Handys mit Sammelkamera ohne Lücke)
@@ -61,7 +61,7 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - Läuft weiter, wenn der Bildschirm ausgeht
 - Übersteht einen Neustart der Box oder kurzes Abziehen des Kabels: Die App wartet auf die Box und sendet danach von selbst weiter
 - Stopp auch über die Benachrichtigung, wenn man die Leiste von oben herunterzieht; ist die App nur offen, steht dort „Beenden“
-- Logs-Knopf: Ereignisse und Kamera-Info lassen sich kopieren, zum Beispiel für eine Fehlermeldung
+- Logs-Knopf: Ereignisse und Kamera-Info lassen sich kopieren oder als Textdatei speichern, zum Beispiel für eine Fehlermeldung
 - Oberfläche auf Deutsch und Englisch, je nach Sprache des Handys
 - Anzeige für Akkustand, Ladezustand, Strom und Temperatur des Handys, auch auf der Box sichtbar
 - Sparsam gebaut: Das Bild kodiert der Video-Encoder des Handys (in der Regel in Hardware) und die Grafikeinheit dreht es, ohne Fremdbibliotheken und mit weniger als 1 MB Größe; den Internetzugriff braucht nur die Net-Fassung
@@ -121,12 +121,12 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - Back up settings: write connections and settings to one file, encrypted with a password (Android built-ins only), and restore them on the next phone (buttons at the bottom of the connections page)
 - Save several connections (own page, each with a name and a short summary), tick one and send; the Net version remembers address, key and networks per connection. While sending, the connections page stays locked so nothing private is on screen
 - SRTLA bonds Wi-Fi, mobile data and a USB network (Ethernet adapter, USB router or USB tethering from a second phone) into one stream; if one network drops, the stream continues over the others. Priority per network (1 to 10, only effective while the network is stable), share and round-trip time per network shown
-- With SRT and SRTLA the app quickly adapts the video bitrate itself to round-trip time, packets in flight and losses, drops at once on a dip and returns fast afterwards (never above the chosen bitrate)
+- With SRT and SRTLA the app quickly adapts the video bitrate itself to round-trip time and packets in flight, drops at once on a dip and returns fast afterwards (never above the chosen bitrate); audio takes priority over video
 - Selectable picture sharpness (standard or sharper, with less or stronger camera noise smoothing)
 - Video as H.264 or H.265, up to 1080p at 25, 30, 50 or 60 frames per second
 - Audio as AAC in stereo or mono (selectable before going live), microphone can be muted with a button; the menu is also reachable in landscape
 - Level meter for the sound at the bottom edge of the picture and a volume control from −12 to +24 dB, also while streaming
-- Full screen: the preview fills the whole screen (can be switched off, the full picture is always sent); the battery display shows charging in green, light discharge in orange and strong discharge in red
+- Full screen: the preview fills the whole screen (can be switched off, the full picture is always sent); the battery display shows “charging” in green and “falling” in orange or red; the temperature is coloured as soon as the phone itself reports that it is throttling because of heat
 - Selectable bitrate, up to 10 Mbit/s (from 1 Mbit/s with RTMP and SRT); over the network the app lowers the data rate by itself when it is too slow
 - Choose rear lenses individually (for example wide, normal, tele), switch to the front camera, selfie image mirrored if wanted
 - Pinch to zoom, with automatic lens switching across lens boundaries (no gap on phones with a logical multi-camera)
@@ -134,7 +134,7 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - Keeps running when the screen turns off
 - Survives a restart of the box or briefly unplugging the cable: the app waits for the box and then keeps sending by itself
 - Stop also from the notification when you pull the shade down; while the app is only open it offers "Quit"
-- Logs button: events and camera info can be copied, for example for a bug report
+- Logs button: events and camera info can be copied or saved as a text file, for example for a bug report
 - Interface in German and English, depending on the phone's language
 - Shows battery level, charging state, current and temperature of the phone, also visible on the box
 - Built to be frugal: the picture is encoded by the phone's video encoder (usually in hardware) and rotated by the graphics unit, with no third-party libraries and a size below 1 MB; only the Net version needs internet access

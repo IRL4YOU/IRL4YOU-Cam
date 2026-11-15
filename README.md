@@ -2,22 +2,24 @@
 
 # IRL4YOU Cam, IRL4YOU Cam Net und IRL4YOU Cam Link
 
-**In diesem Repository liegen drei Android-Apps.** Zwei machen dein Android-Handy zur Kamera für die [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX); die Net-Fassung kann zusätzlich direkt an Server senden. Die dritte, Cam Link, macht ein zweites Handy zum zusätzlichen Netz für die Net-Fassung.
-**This repository contains three Android apps.** Two turn your Android phone into a camera for the [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX); the Net version can also send directly to servers. The third, Cam Link, turns a second phone into an extra network for the Net version.
+**In diesem Repository liegen drei Android-Apps.** Zwei machen dein Android-Handy zur Kamera für die [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX); IRL4YOU Cam Net kann zusätzlich direkt an Server senden. Die dritte, IRL4YOU Cam Link, macht ein zweites Handy zum zusätzlichen Netz für IRL4YOU Cam Net.
+**This repository contains three Android apps.** Two turn your Android phone into a camera for the [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX); IRL4YOU Cam Net can also send directly to servers. The third, IRL4YOU Cam Link, turns a second phone into an extra network for IRL4YOU Cam Net.
+
+Mehr dazu auf der Webseite: [irl4you.de](https://irl4you.de/irl4you-cam-apps.html) · More on the website: [irl4you.de](https://irl4you.de/en/irl4you-cam-apps.html)
 
 | | <img src="bilder/logo-cam.png" width="56" alt=""><br>**IRL4YOU Cam** | <img src="bilder/logo-net.png" width="56" alt=""><br>**IRL4YOU Cam Net** | <img src="bilder/logo-link.png" width="56" alt=""><br>**IRL4YOU Cam Link** |
 |---|---|---|---|
 | Datei / File | `IRL4YOU-Cam.apk` | `IRL4YOU-Cam-Net.apk` | `IRL4YOU-Cam-Link.apk` |
-| Sendet an / Sends to | IRL4YOU BOX per USB-Kabel / via USB cable | USB-Box und zusätzlich RTMP, RTMPS, SRT, SRTLA / USB box plus RTMP, RTMPS, SRT, SRTLA | reicht den Stream der Net-Fassung über den eigenen Mobilfunk weiter / passes the Net version's stream on over its own mobile network |
+| Sendet an / Sends to | IRL4YOU BOX per USB-Kabel / via USB cable | USB-Box und zusätzlich RTMP, RTMPS, SRT, SRTLA / USB box plus RTMP, RTMPS, SRT, SRTLA | reicht den Stream von IRL4YOU Cam Net über den eigenen Mobilfunk weiter / passes the stream of IRL4YOU Cam Net on over its own mobile network |
 | Internet-Berechtigung / Internet permission | nein / no | ja / yes | ja / yes |
-| Gedacht für / Meant for | die einfache Fassung, nur mit der BOX / the simple version, BOX only | wer auch an eigene Server oder mehrere Netze senden will / for sending to your own servers or over several networks | ein zweites Handy als weiteres Netz für SRTLA, ohne Kamera und Mikrofon / a second phone as an extra network for SRTLA, without camera or microphone |
+| Gedacht für / Meant for | IRL4YOU Cam, nur mit der BOX / IRL4YOU Cam, BOX only | wer auch an eigene Server oder mehrere Netze senden will / for sending to your own servers or over several networks | ein zweites Handy als weiteres Netz für SRTLA, ohne Kamera und Mikrofon / a second phone as an extra network for SRTLA, without camera or microphone |
 
 Alle drei lassen sich nebeneinander installieren (eigene App-Kennung) und haben getrennte Versionsnummern.
 All three can be installed side by side (separate app ID) and have separate version numbers.
 
 **Download:** [Releases](../../releases/latest), dort liegen immer alle drei Dateien (nur Android) / all three files are always there (Android only)
 
-Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-Ziele. Cam Link hat einen eigenen Abschnitt. / The description below covers the Net version; the simple one has no server targets. Cam Link has its own section.
+Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Ziele. IRL4YOU Cam Link hat einen eigenen Abschnitt. / The description below covers IRL4YOU Cam Net; IRL4YOU Cam has no server targets. IRL4YOU Cam Link has its own section.
 
 ## Screenshots
 
@@ -43,10 +45,10 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 ### Was die App kann
 
 - Bild und Ton des Handys per USB-Kabel an die Box senden, ohne WLAN
-- Alternativ per RTMP, RTMPS, SRT oder SRTLA an einen Server senden (zum Beispiel Twitch, YouTube oder ein eigener Server): Adresse im Menü, bei RTMP mit Stream-Key, bei SRT mit Stream-ID, Passphrase (Verschlüsselung) und Latenz; bricht die Verbindung ab, verbindet die App von selbst neu (nur in der Net-Fassung)
+- Alternativ per RTMP, RTMPS, SRT oder SRTLA an einen Server senden (zum Beispiel Twitch, YouTube oder ein eigener Server): Adresse im Menü, bei RTMP mit Stream-Key, bei SRT mit Stream-ID, Passphrase (Verschlüsselung) und Latenz; bricht die Verbindung ab, verbindet die App von selbst neu (nur in IRL4YOU Cam Net)
 - Verbindung weitergeben: Neben jeder Verbindung (Stift) zeigt die App einen QR-Code. Auf dem anderen Handy mit der Kamera-App scannen, der Link öffnet die App und bietet das Übernehmen an. Alternativ den Link kopieren und mit „Verbindung aus Link einfügen“ übernehmen. Der QR-Code wird in der App selbst erzeugt, ohne zusätzliche Bibliothek. Er enthält Adresse und Schlüssel, also nur kurz zeigen
 - Einstellungen sichern: Verbindungen und Einstellungen in eine Datei schreiben, mit Passwort verschlüsselt (nur Bordmittel von Android), und auf dem nächsten Handy wiederherstellen (Knöpfe unten auf der Verbindungsseite)
-- Mehrere Verbindungen speichern (eigene Seite, je mit Namen und Kurzinfo), eine anhaken und senden; die Net-Fassung merkt sich Adresse, Key und Netze je Verbindung. Beim Senden bleibt die Verbindungsseite gesperrt, damit nichts Privates auf dem Bildschirm steht
+- Mehrere Verbindungen speichern (eigene Seite, je mit Namen und Kurzinfo), eine anhaken und senden; IRL4YOU Cam Net merkt sich Adresse, Key und Netze je Verbindung. Beim Senden bleibt die Verbindungsseite gesperrt, damit nichts Privates auf dem Bildschirm steht
 - SRTLA bündelt WLAN, Mobilfunk und ein USB-Netz (Ethernet-Adapter, USB-Router oder USB-Tethering eines zweiten Handys) gleichzeitig zu einem Strom; fällt ein Netz weg, läuft der Strom über die anderen weiter. Je Netz einstellbare Priorität (1 bis 10, wirkt nur bei stabilem Netz), Anzeige von Anteil und Laufzeit je Netz
 - Bei SRT und SRTLA passt die App die Videobitrate schnell selbst an Laufzeit und Pakete unterwegs an, senkt bei Einbrüchen sofort und kehrt danach zügig zurück (nie über der gewählten Bitrate); der Ton hat dabei Vorrang vor dem Bild
 - Bildschärfe wählbar (Standard oder schärfer, mit weniger oder stärkerer Rauschglättung der Kamera)
@@ -64,11 +66,11 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - Logs-Knopf: Ereignisse und Kamera-Info lassen sich kopieren oder als Textdatei speichern, zum Beispiel für eine Fehlermeldung
 - Oberfläche auf Deutsch und Englisch, je nach Sprache des Handys
 - Anzeige für Akkustand, Ladezustand, Strom und Temperatur des Handys, auch auf der Box sichtbar
-- Sparsam gebaut: Das Bild kodiert der Video-Encoder des Handys (in der Regel in Hardware) und die Grafikeinheit dreht es, ohne zusätzliche Bibliotheken und mit weniger als 1 MB Größe; den Internetzugriff brauchen nur die Net-Fassung und Cam Link
+- Sparsam gebaut: Das Bild kodiert der Video-Encoder des Handys (in der Regel in Hardware) und die Grafikeinheit dreht es, ohne zusätzliche Bibliotheken und mit weniger als 1 MB Größe; den Internetzugriff brauchen nur IRL4YOU Cam Net und IRL4YOU Cam Link
 
 ### Was die App nicht kann
 
-- Über WLAN oder Mobilfunk geht nur in der Net-Fassung etwas: RTMP, RTMPS, SRT oder SRTLA
+- Über WLAN oder Mobilfunk geht nur in IRL4YOU Cam Net etwas: RTMP, RTMPS, SRT oder SRTLA
 - Keine Aufnahme auf dem Handy, keine Filter, keine Effekte, keine Einblendungen
 - Per USB nur mit der IRL4YOU BOX
 - H.265 per RTMP nur bei Servern mit Enhanced RTMP; wer sicher gehen will, nimmt H.264
@@ -77,7 +79,7 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - Bei Handys ohne Sammelkamera entsteht beim Zoomen über eine Linsengrenze eine kurze Lücke im Bild
 - Bei 50 oder 60 Bildern pro Sekunde im Hochformat schaffen manche Handys weniger
 - Fokus und Belichtung laufen automatisch, von Hand einstellen (Antippen) geht noch nicht
-- Externes Mikrofon (USB, Kabel, Bluetooth) nur in der Net-Fassung, im Menü wählbar; die einfache Fassung nimmt mit den eingebauten Mikrofonen auf, weil der USB-Anschluss an der Box hängt
+- Externes Mikrofon (USB, Kabel, Bluetooth) nur in IRL4YOU Cam Net, im Menü wählbar; IRL4YOU Cam nimmt mit den eingebauten Mikrofonen auf, weil der USB-Anschluss an der Box hängt
 - Ist die Box länger als 30 Minuten nicht erreichbar, beendet sich die App
 
 ### Gut zu wissen
@@ -89,12 +91,12 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 
 ### Cam Link: zweites Handy als weiteres Netz
 
-- Die App **IRL4YOU Cam Link** läuft auf einem zweiten Android-Handy (ab Android 8.0). Sie reicht den Stream der Net-Fassung über den Mobilfunk dieses Handys weiter; für SRTLA ist das ein weiteres Netz
+- Die App **IRL4YOU Cam Link** läuft auf einem zweiten Android-Handy (ab Android 8.0). Sie reicht den Stream von IRL4YOU Cam Net über den Mobilfunk dieses Handys weiter; für SRTLA ist das ein weiteres Netz
 - Beide Handys müssen im selben WLAN sein (Router oder Hotspot), das Hilfshandy braucht mobile Daten
 - Hilfshandy: `IRL4YOU-Cam-Link.apk` installieren, Passwort festlegen und „Start“ drücken. Die App läuft im Hintergrund weiter, das Handy bleibt für anderes frei
-- Sendehandy (Net-Fassung): SRTLA wählen, „Cam Link“ anhaken und dasselbe Passwort eintragen. Die App findet das Hilfshandy von selbst und zeigt es als Netz „Link“
-- Cam Link braucht weder Kamera noch Mikrofon. Das Passwort wird nicht übertragen; ändere das voreingestellte Passwort, wenn du ein fremdes WLAN benutzt
-- **iPhone-Hotspot:** Auch dort läuft es. Der Hotspot gibt Android-Handys oft keine IPv4-Adresse und lässt sie nur über IPv6 miteinander reden; Cam Link sucht deshalb zusätzlich per IPv6 und nutzt es automatisch, es muss nichts eingetragen werden. Ob es klappt, hängt vom Hotspot ab. In Cam Link zeigt die Zeile „Adresse dieses Handys“ alle Adressen des WLANs
+- Sendehandy (IRL4YOU Cam Net): SRTLA wählen, „Cam Link“ anhaken und dasselbe Passwort eintragen. Die App findet das Hilfshandy von selbst und zeigt es als Netz „Link“
+- IRL4YOU Cam Link braucht weder Kamera noch Mikrofon. Das Passwort wird nicht übertragen; ändere das voreingestellte Passwort, wenn du ein fremdes WLAN benutzt
+- **iPhone-Hotspot:** Auch dort läuft es. Der Hotspot gibt Android-Handys oft keine IPv4-Adresse und lässt sie nur über IPv6 miteinander reden; IRL4YOU Cam Link sucht deshalb zusätzlich per IPv6 und nutzt es automatisch, es muss nichts eingetragen werden. Ob es klappt, hängt vom Hotspot ab. In IRL4YOU Cam Link zeigt die Zeile „Adresse dieses Handys“ alle Adressen des WLANs
 
 ### Installation
 
@@ -125,10 +127,10 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 ### What the app does
 
 - Sends the phone's video and audio to the box over a USB cable, without Wi-Fi
-- Alternatively sends over RTMP, RTMPS, SRT or SRTLA to a server (for example Twitch, YouTube or your own server): address in the menu, with a stream key for RTMP, with stream ID, passphrase (encryption) and latency for SRT; if the connection drops, the app reconnects by itself (Net version only)
+- Alternatively sends over RTMP, RTMPS, SRT or SRTLA to a server (for example Twitch, YouTube or your own server): address in the menu, with a stream key for RTMP, with stream ID, passphrase (encryption) and latency for SRT; if the connection drops, the app reconnects by itself (IRL4YOU Cam Net only)
 - Share a connection: next to each connection (pencil) the app shows a QR code. Scan it with the camera app of the other phone, the link opens the app and offers to add it. Alternatively copy the link and use "Verbindung aus Link einfügen" (paste connection from link). The QR code is generated inside the app, with no additional library. It contains address and key, so show it only briefly
 - Back up settings: write connections and settings to one file, encrypted with a password (Android built-ins only), and restore them on the next phone (buttons at the bottom of the connections page)
-- Save several connections (own page, each with a name and a short summary), tick one and send; the Net version remembers address, key and networks per connection. While sending, the connections page stays locked so nothing private is on screen
+- Save several connections (own page, each with a name and a short summary), tick one and send; IRL4YOU Cam Net remembers address, key and networks per connection. While sending, the connections page stays locked so nothing private is on screen
 - SRTLA bonds Wi-Fi, mobile data and a USB network (Ethernet adapter, USB router or USB tethering from a second phone) into one stream; if one network drops, the stream continues over the others. Priority per network (1 to 10, only effective while the network is stable), share and round-trip time per network shown
 - With SRT and SRTLA the app quickly adapts the video bitrate itself to round-trip time and packets in flight, drops at once on a dip and returns fast afterwards (never above the chosen bitrate); audio takes priority over video
 - Selectable picture sharpness (standard or sharper, with less or stronger camera noise smoothing)
@@ -146,11 +148,11 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - Logs button: events and camera info can be copied or saved as a text file, for example for a bug report
 - Interface in German and English, depending on the phone's language
 - Shows battery level, charging state, current and temperature of the phone, also visible on the box
-- Built to be frugal: the picture is encoded by the phone's video encoder (usually in hardware) and rotated by the graphics unit, with no additional libraries and a size below 1 MB; only the Net version and Cam Link need internet access
+- Built to be frugal: the picture is encoded by the phone's video encoder (usually in hardware) and rotated by the graphics unit, with no additional libraries and a size below 1 MB; only IRL4YOU Cam Net and IRL4YOU Cam Link need internet access
 
 ### What the app does not do
 
-- Over Wi-Fi or mobile data only the Net version does something: RTMP, RTMPS, SRT or SRTLA
+- Over Wi-Fi or mobile data only IRL4YOU Cam Net does something: RTMP, RTMPS, SRT or SRTLA
 - No recording on the phone, no filters, no effects, no overlays
 - Over USB it works only with the IRL4YOU BOX
 - H.265 over RTMP only with servers that support Enhanced RTMP; choose H.264 to be safe
@@ -159,7 +161,7 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 - On phones without a logical multi-camera, zooming across a lens boundary causes a short gap in the picture
 - At 50 or 60 frames per second in portrait, some phones deliver fewer
 - Focus and exposure are automatic, setting them by hand (tap) is not possible yet
-- External microphone (USB, cable, Bluetooth) only in the Net version, selectable in the menu; the simple version records with the built-in microphones because the USB port is used for the box
+- External microphone (USB, cable, Bluetooth) only in IRL4YOU Cam Net, selectable in the menu; IRL4YOU Cam records with the built-in microphones because the USB port is used for the box
 - If the box is not reachable for more than 30 minutes, the app quits
 
 ### Good to know
@@ -171,12 +173,12 @@ Die Beschreibung unten gilt für die Net-Fassung; die einfache hat keine Server-
 
 ### Cam Link: a second phone as an extra network
 
-- The app **IRL4YOU Cam Link** runs on a second Android phone (Android 8.0 or newer). It passes the Net version's stream on over that phone's mobile network; for SRTLA this is one more network
+- The app **IRL4YOU Cam Link** runs on a second Android phone (Android 8.0 or newer). It passes the stream of IRL4YOU Cam Net on over that phone's mobile network; for SRTLA this is one more network
 - Both phones must be in the same Wi-Fi (router or hotspot), the helper phone needs mobile data
 - Helper phone: install `IRL4YOU-Cam-Link.apk`, set a password and tap "Start". The app keeps running in the background, the phone stays free for other things
-- Sending phone (Net version): choose SRTLA, tick "Cam Link" and enter the same password. The app finds the helper phone by itself and shows it as the network "Link"
-- Cam Link needs neither camera nor microphone. The password is never transmitted; change the preset password when you use a Wi-Fi that is not your own
-- **iPhone hotspot:** It works there too. The hotspot often gives Android phones no IPv4 address and lets them talk to each other over IPv6 only; Cam Link therefore also searches over IPv6 and uses it automatically, nothing has to be entered. Whether it works depends on the hotspot. In Cam Link the line "Address of this phone" shows all addresses of the Wi-Fi
+- Sending phone (IRL4YOU Cam Net): choose SRTLA, tick "Cam Link" and enter the same password. The app finds the helper phone by itself and shows it as the network "Link"
+- IRL4YOU Cam Link needs neither camera nor microphone. The password is never transmitted; change the preset password when you use a Wi-Fi that is not your own
+- **iPhone hotspot:** It works there too. The hotspot often gives Android phones no IPv4 address and lets them talk to each other over IPv6 only; IRL4YOU Cam Link therefore also searches over IPv6 and uses it automatically, nothing has to be entered. Whether it works depends on the hotspot. In IRL4YOU Cam Link the line "Address of this phone" shows all addresses of the Wi-Fi
 
 ### Installation
 

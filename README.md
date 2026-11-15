@@ -52,7 +52,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 - SRTLA bündelt WLAN, Mobilfunk und ein USB-Netz (Ethernet-Adapter, USB-Router oder USB-Tethering eines zweiten Handys) gleichzeitig zu einem Strom; fällt ein Netz weg, läuft der Strom über die anderen weiter. Je Netz einstellbare Priorität (1 bis 10, wirkt nur bei stabilem Netz), Anzeige von Anteil und Laufzeit je Netz
 - Bei SRT und SRTLA passt die App die Videobitrate schnell selbst an Laufzeit und Pakete unterwegs an, senkt bei Einbrüchen sofort und kehrt danach zügig zurück (nie über der gewählten Bitrate); der Ton hat dabei Vorrang vor dem Bild
 - Bildschärfe wählbar (Standard oder schärfer, mit weniger oder stärkerer Rauschglättung der Kamera)
-- Video als H.264 oder H.265, bis 1080p mit 25, 30, 50 oder 60 Bildern pro Sekunde; in IRL4YOU Cam Net zusätzlich 720p mit 30 oder 60
+- Video als H.264 oder H.265, bis 1080p mit 25, 30, 50 oder 60 Bildern pro Sekunde; in IRL4YOU Cam Net zusätzlich 720p mit 25, 30, 50 oder 60
 - Ton als AAC in Stereo oder Mono (vor dem Livegang wählbar), Mikrofon per Knopf stumm schalten; das Menü ist auch im Querformat erreichbar
 - Pegelanzeige für den Ton am unteren Bildrand und Lautstärkeregler von −12 bis +24 dB, auch während der Übertragung
 - Vollbild: Die Vorschau füllt den ganzen Bildschirm (abschaltbar, gesendet wird immer das volle Bild); die Akkuanzeige zeigt „lädt“ grün und „sinkt“ orange oder rot; die Temperatur färbt sich, sobald das Handy selbst meldet, dass es wegen Hitze drosselt
@@ -134,7 +134,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 - SRTLA bonds Wi-Fi, mobile data and a USB network (Ethernet adapter, USB router or USB tethering from a second phone) into one stream; if one network drops, the stream continues over the others. Priority per network (1 to 10, only effective while the network is stable), share and round-trip time per network shown
 - With SRT and SRTLA the app quickly adapts the video bitrate itself to round-trip time and packets in flight, drops at once on a dip and returns fast afterwards (never above the chosen bitrate); audio takes priority over video
 - Selectable picture sharpness (standard or sharper, with less or stronger camera noise smoothing)
-- Video as H.264 or H.265, up to 1080p at 25, 30, 50 or 60 frames per second; IRL4YOU Cam Net also offers 720p at 30 or 60
+- Video as H.264 or H.265, up to 1080p at 25, 30, 50 or 60 frames per second; IRL4YOU Cam Net also offers 720p at 25, 30, 50 or 60
 - Audio as AAC in stereo or mono (selectable before going live), microphone can be muted with a button; the menu is also reachable in landscape
 - Level meter for the sound at the bottom edge of the picture and a volume control from −12 to +24 dB, also while streaming
 - Full screen: the preview fills the whole screen (can be switched off, the full picture is always sent); the battery display shows “charging” in green and “falling” in orange or red; the temperature is coloured as soon as the phone itself reports that it is throttling because of heat

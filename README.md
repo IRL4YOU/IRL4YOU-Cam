@@ -2,17 +2,17 @@
 
 # IRL4YOU Cam, IRL4YOU Cam Net und IRL4YOU Stream Link
 
-**In diesem Repository liegen drei Android-Apps.** Zwei machen dein Android-Handy zur Kamera für die [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX); IRL4YOU Cam Net kann zusätzlich direkt an Server senden. Die dritte, IRL4YOU Stream Link, macht ein zweites Handy zum zusätzlichen Netz für IRL4YOU Cam Net.
-**This repository contains three Android apps.** Two turn your Android phone into a camera for the [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX); IRL4YOU Cam Net can also send directly to servers. The third, IRL4YOU Stream Link, turns a second phone into an extra network for IRL4YOU Cam Net.
+**In diesem Repository liegen drei Android-Apps.** Zwei machen dein Android-Handy zur Kamera für die [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX); IRL4YOU Cam Net kann zusätzlich direkt an Server senden. Die dritte, [IRL4YOU Stream Link](https://github.com/IRL4YOU/IRL4YOU-Stream-Link), erweitert das Netz: ein zweites Handy sendet über seinen eigenen Mobilfunk mit, für IRL4YOU Cam Net und für die IRL4YOU BOX. Sie hat auch ein eigenes Repository.
+**This repository contains three Android apps.** Two turn your Android phone into a camera for the [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX); IRL4YOU Cam Net can also send directly to servers. The third, [IRL4YOU Stream Link](https://github.com/IRL4YOU/IRL4YOU-Stream-Link), extends the network: a second phone sends along over its own mobile network, for IRL4YOU Cam Net and for the IRL4YOU BOX. It also has its own repository.
 
 Mehr dazu auf der Webseite: [irl4you.de](https://irl4you.de/irl4you-cam-apps.html) · More on the website: [irl4you.de](https://irl4you.de/en/irl4you-cam-apps.html)
 
 | | <img src="bilder/logo-cam.png" width="56" alt=""><br>**IRL4YOU Cam** | <img src="bilder/logo-net.png" width="56" alt=""><br>**IRL4YOU Cam Net** | <img src="bilder/logo-link.png" width="56" alt=""><br>**IRL4YOU Stream Link** |
 |---|---|---|---|
 | Datei / File | `IRL4YOU-Cam.apk` | `IRL4YOU-Cam-Net.apk` | `IRL4YOU-Stream-Link.apk` |
-| Sendet an / Sends to | IRL4YOU BOX per USB-Kabel / via USB cable | USB-Box und zusätzlich RTMP, RTMPS, SRT, SRTLA / USB box plus RTMP, RTMPS, SRT, SRTLA | reicht den Stream von IRL4YOU Cam Net über den eigenen Mobilfunk weiter / passes the stream of IRL4YOU Cam Net on over its own mobile network |
+| Sendet an / Sends to | IRL4YOU BOX per USB-Kabel / via USB cable | USB-Box und zusätzlich RTMP, RTMPS, SRT, SRTLA / USB box plus RTMP, RTMPS, SRT, SRTLA | erweitert das Netz: reicht den Stream von IRL4YOU Cam Net oder der BOX über den eigenen Mobilfunk weiter / extends the network: passes the stream of IRL4YOU Cam Net or the BOX on over its own mobile network |
 | Internet-Berechtigung / Internet permission | nein / no | ja / yes | ja / yes |
-| Gedacht für / Meant for | IRL4YOU Cam, nur mit der BOX / IRL4YOU Cam, BOX only | wer auch an eigene Server oder mehrere Netze senden will / for sending to your own servers or over several networks | ein zweites Handy als weiteres Netz für SRTLA, ohne Kamera und Mikrofon / a second phone as an extra network for SRTLA, without camera or microphone |
+| Gedacht für / Meant for | IRL4YOU Cam, nur mit der BOX / IRL4YOU Cam, BOX only | wer auch an eigene Server oder mehrere Netze senden will / for sending to your own servers or over several networks | ein zweites Handy als weiteres Netz für SRTLA (auch an der BOX), ohne Kamera und Mikrofon / a second phone as an extra network for SRTLA (also at the BOX), without camera or microphone |
 
 Alle drei lassen sich nebeneinander installieren (eigene App-Kennung) und haben getrennte Versionsnummern.
 All three can be installed side by side (separate app ID) and have separate version numbers.
@@ -91,7 +91,9 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 ### Stream Link: zweites Handy als weiteres Netz
 
-- Die App **IRL4YOU Stream Link** läuft auf einem zweiten Android-Handy (ab Android 8.0). Sie reicht den Stream von IRL4YOU Cam Net über den Mobilfunk dieses Handys weiter; für SRTLA ist das ein weiteres Netz
+- Die App **IRL4YOU Stream Link** erweitert dein Netz: Sie läuft auf einem zweiten Android-Handy (ab Android 8.0) und reicht den Stream von IRL4YOU Cam Net oder von der IRL4YOU BOX über den Mobilfunk dieses Handys weiter; für SRTLA ist das ein weiteres Netz
+- **Geeignet für die IRL4YOU BOX:** In der Oberfläche der Box unter „Netzwerk“ bei „Stream Link“ einschalten und dasselbe Passwort eintragen, die Box findet das Handy von selbst
+- Ausführliche Beschreibung, Einrichtung und Fehlersuche im [Repository IRL4YOU Stream Link](https://github.com/IRL4YOU/IRL4YOU-Stream-Link)
 - Beide Handys müssen im selben WLAN sein (Router oder Hotspot), das Hilfshandy braucht mobile Daten
 - Hilfshandy: `IRL4YOU-Stream-Link.apk` installieren, Passwort festlegen und „Start“ drücken. Die App läuft im Hintergrund weiter, das Handy bleibt für anderes frei
 - Sendehandy (IRL4YOU Cam Net): SRTLA wählen, „Stream Link“ anhaken und dasselbe Passwort eintragen. Die App findet das Hilfshandy von selbst und zeigt es als Netz „Link“
@@ -173,7 +175,9 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 ### Stream Link: a second phone as an extra network
 
-- The app **IRL4YOU Stream Link** runs on a second Android phone (Android 8.0 or newer). It passes the stream of IRL4YOU Cam Net on over that phone's mobile network; for SRTLA this is one more network
+- The app **IRL4YOU Stream Link** extends your network: it runs on a second Android phone (Android 8.0 or newer) and passes the stream of IRL4YOU Cam Net or of the IRL4YOU BOX on over that phone's mobile network; for SRTLA this is one more network
+- **Suitable for the IRL4YOU BOX:** in the box interface under "Network" at "Stream Link" switch it on and enter the same password, the box finds the phone by itself
+- Full description, setup and troubleshooting in the [IRL4YOU Stream Link repository](https://github.com/IRL4YOU/IRL4YOU-Stream-Link)
 - Both phones must be in the same Wi-Fi (router or hotspot), the helper phone needs mobile data
 - Helper phone: install `IRL4YOU-Stream-Link.apk`, set a password and tap "Start". The app keeps running in the background, the phone stays free for other things
 - Sending phone (IRL4YOU Cam Net): choose SRTLA, tick "Stream Link" and enter the same password. The app finds the helper phone by itself and shows it as the network "Link"

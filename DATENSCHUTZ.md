@@ -10,7 +10,7 @@ Stand: 14. November 2026
 
 **IRL4YOU Cam Net.** Diese Fassung darf das Netz nutzen (WLAN, Mobilfunk, USB-Netz) und sendet Bild und Ton nur an das Ziel, das du selbst einträgst (RTMP-, SRT- oder SRTLA-Server). Dorthin gehen auch die Angaben, die der Server zum Annehmen braucht (zum Beispiel Stream-Key, Stream-ID, Passphrase). An uns oder andere Dritte geht nichts. Was der Server mit Bild und Ton macht, richtet sich nach dessen Betreiber und ist nicht Teil dieser App.
 
-**IRL4YOU Stream Link.** Diese App läuft auf einem zweiten Handy im selben WLAN. Sie nimmt die Datenpakete deines Sendehandys entgegen und reicht sie unverändert über das Mobilfunknetz an das Ziel weiter, das im Sendehandy eingetragen ist, und die Antworten zurück. Sie liest, speichert und verändert die Inhalte nicht. Das Passwort für die Anmeldung bleibt auf den Handys und wird nicht übertragen. An uns oder andere Dritte geht nichts.
+**IRL4YOU Stream Link.** Diese App läuft auf einem zweiten Handy im selben Netz. Sie nimmt die Datenpakete deiner IRL4YOU BOX oder deines Sendehandys entgegen und reicht sie unverändert über das Mobilfunknetz an das Ziel weiter, das im Sendehandy eingetragen ist, und die Antworten zurück. Sie liest, speichert und verändert die Inhalte nicht. Das Passwort für die Anmeldung bleibt auf den Geräten und wird nicht übertragen. An uns oder andere Dritte geht nichts.
 
 **Einstellungen.** Deine Auswahl (zum Beispiel Codec, Bildrate, Bitrate) und in der Net-Fassung deine gespeicherten Verbindungen (Name, Adresse, Key, Passphrase) bleiben nur lokal auf dem Handy gespeichert und verlassen es nicht, außer zum Verbinden mit dem von dir gewählten Server.
 
@@ -34,7 +34,7 @@ Last updated: November 14, 2026
 
 **IRL4YOU Cam Net.** This version may use the network (Wi-Fi, mobile data, USB network) and sends video and audio only to the destination you enter yourself (RTMP, SRT or SRTLA server). The details the server needs to accept the stream (for example stream key, stream ID, passphrase) go there as well. Nothing is sent to us or other third parties. What the server does with video and audio depends on its operator and is not part of this app.
 
-**IRL4YOU Stream Link.** This app runs on a second phone in the same Wi-Fi. It accepts the data packets of your sending phone and passes them on unchanged over the mobile network to the destination set in the sending phone, and the replies back. It does not read, store or change the contents. The password used to sign in stays on the phones and is never transmitted. Nothing is sent to us or other third parties.
+**IRL4YOU Stream Link.** This app runs on a second phone in the same network. It accepts the data packets of your IRL4YOU BOX or your sending phone and passes them on unchanged over the mobile network to the destination set in the sending phone, and the replies back. It does not read, store or change the contents. The password used to sign in stays on the devices and is never transmitted. Nothing is sent to us or other third parties.
 
 **Settings.** Your choices (for example codec, frame rate, bitrate) and, in the Net version, your saved connections (name, address, key, passphrase) are stored locally on the phone only and do not leave it, except to connect to the server you chose.
 

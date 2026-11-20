@@ -119,7 +119,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 ### Installation
 
-1. Auf dem Handy die [Releases](../../releases/latest) öffnen und `IRL4YOU-Cam.apk` herunterladen.
+1. Auf dem Handy die [Releases](../../releases/latest) öffnen und `IRL4YOU-Cam.apk` herunterladen. Für DJI- und RTMP-Kameras sowie zum Senden an Server nimmst du stattdessen `IRL4YOU-Cam-Net.apk`.
 2. Die heruntergeladene Datei öffnen. Android fragt, ob Installationen aus dieser Quelle (zum Beispiel dem Browser) erlaubt sind. Einmal erlauben, dann „Installieren“ tippen.
 3. App „IRL4YOU Cam“ starten und die Berechtigungen für Kamera, Mikrofon und Benachrichtigungen erlauben. Die Benachrichtigung braucht Android, damit die App im Hintergrund weitersenden darf. Für DJI-Kameras kommen Bluetooth (Geräte in der Nähe) und Standort dazu; der Standort dient nur dazu, WLAN-Namen zu lesen und zu suchen.
 4. Updates: neue APK herunterladen und einfach über die alte installieren. Einstellungen bleiben erhalten.
@@ -225,7 +225,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 ### Installation
 
-1. On the phone, open the [Releases](../../releases/latest) and download `IRL4YOU-Cam.apk`.
+1. On the phone, open the [Releases](../../releases/latest) and download `IRL4YOU-Cam.apk`. For DJI and RTMP cameras and for sending to servers, take `IRL4YOU-Cam-Net.apk` instead.
 2. Open the downloaded file. Android asks whether installs from this source (for example the browser) are allowed. Allow it once, then tap "Install".
 3. Start the app "IRL4YOU Cam" and allow the permissions for camera, microphone and notifications. Android needs the notification so the app may keep sending in the background. For DJI cameras, Bluetooth (nearby devices) and location are added; location is only used to read and search Wi-Fi names.
 4. Updates: download the new APK and install it over the old one. Settings are kept.

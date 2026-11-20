@@ -90,7 +90,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 ### DJI-Kameras und andere RTMP-Kameras (nur IRL4YOU Cam Net)
 
-- **Was geht:** DJI-Kameras ersetzen die Handy-Kamera als Bildquelle. Die App koppelt die Kamera per Bluetooth, trägt das WLAN ein, startet den Stream und nimmt ihn auf dem Handy entgegen. Getestet sind Osmo Action 4 und Osmo Action 6; weitere Modelle der Action- und Pocket-Reihe sind in der Steuerung vorgesehen, aber nicht getestet
+- **Was geht:** DJI-Kameras ersetzen die Handy-Kamera als Bildquelle. Die App koppelt die Kamera per Bluetooth, trägt das WLAN ein, startet den Stream und nimmt ihn auf dem Handy entgegen. Getestet sind Osmo Action 4 und Osmo Action 6. Osmo Action 5 Pro, Osmo Pocket 3, Osmo Pocket 4 und Osmo Pocket 4 Pro sind mit eingebaut und sollten funktionieren, wurden aber leider noch nicht getestet
 - **Mehrere Kameras:** bis zu drei gleichzeitig. Eine Kamera ist das Hauptbild, die anderen erscheinen klein im Bild (Bild in Bild). Die Facecam und weitere Kameras (Nebencams) setzt du frei an eine Stelle deiner Wahl, auf Wunsch mit Rahmen in einer von acht Farben
 - **Umschalten:** Auf dem Hauptbildschirm hat jede Kamera ein Symbol mit Akkustand und Ladeanzeige. Antippen macht sie zum Hauptbild, das Mikrofon im Symbol legt fest, von welcher Kamera der Ton kommt (Standard: die Facecam). Das geht auch während der Sendung
 - **Andere Marken:** Kameras, die nur RTMP senden, trägst du mit einem Namen ein und gibst Server und Stream-Key, die die App anzeigt, in der Kamera ein
@@ -196,7 +196,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 ### DJI cameras and other RTMP cameras (IRL4YOU Cam Net only)
 
-- **What works:** DJI cameras replace the phone camera as the picture source. The app pairs the camera over Bluetooth, enters the Wi-Fi, starts the stream and receives it on the phone. Tested: Osmo Action 4 and Osmo Action 6; other models of the Action and Pocket series are provided for in the control but not tested
+- **What works:** DJI cameras replace the phone camera as the picture source. The app pairs the camera over Bluetooth, enters the Wi-Fi, starts the stream and receives it on the phone. Tested: Osmo Action 4 and Osmo Action 6. Osmo Action 5 Pro, Osmo Pocket 3, Osmo Pocket 4 and Osmo Pocket 4 Pro are built in and should work, but unfortunately have not been tested yet
 - **Several cameras:** up to three at once. One camera is the main picture, the others appear small in the picture (picture in picture). You place the facecam and further cameras (side cams) freely at a spot of your choice, with a frame in one of eight colours if you like
 - **Switching:** on the main screen each camera has a symbol with battery level and charging indicator. Tapping it makes it the main picture, the microphone in the symbol sets which camera the sound comes from (default: the facecam). This also works while sending
 - **Other brands:** cameras that only send RTMP are added with a name, and you enter the server and stream key shown by the app in the camera

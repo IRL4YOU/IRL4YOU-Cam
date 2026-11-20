@@ -9,7 +9,7 @@ RTMP-Streams) folgt diesen Projekten, alle unter MIT-Lizenz:
 - [node-osmo](https://github.com/datagutt/node-osmo) von Thomas Lekanger (Gegenprobe)
 - [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX) (Ablauf der Sitzung, Umsetzung desselben Protokolls)
 
-Das Protokoll ist von DJI nicht dokumentiert. IRL4YOU Cam ist kein Produkt von DJI und steht in keiner Verbindung zu DJI; „DJI“ und „Osmo“ sind Marken ihrer Inhaber.
+Das Protokoll ist von DJI nicht dokumentiert. IRL4YOU Cam ist kein Produkt von DJI und steht in keiner Verbindung zu DJI; „DJI“ und „Osmo“ sind Marken ihrer Inhaber. Diese Hinweise stehen auch in der App (Seite „DJI- & RTMP-Kameras“, ganz unten).
 
 ## English
 
@@ -20,7 +20,7 @@ stream) follows these projects, all under the MIT licence:
 - [node-osmo](https://github.com/datagutt/node-osmo) by Thomas Lekanger (cross-check)
 - [IRL4YOU BOX](https://github.com/IRL4YOU/IRL4YOU-BOX) (session flow, implementation of the same protocol)
 
-DJI does not document the protocol. IRL4YOU Cam is not a DJI product and is not affiliated with DJI; "DJI" and "Osmo" are trademarks of their owners.
+DJI does not document the protocol. IRL4YOU Cam is not a DJI product and is not affiliated with DJI; "DJI" and "Osmo" are trademarks of their owners. These notices are also shown in the app (page "DJI & RTMP cameras", at the bottom).
 
 ---
 

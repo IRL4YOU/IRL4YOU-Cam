@@ -46,6 +46,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 - Bild und Ton des Handys per USB-Kabel an die Box senden, ohne WLAN
 - Alternativ per RTMP, RTMPS, SRT oder SRTLA an einen Server senden (zum Beispiel Twitch, YouTube oder ein eigener Server): Adresse im Menü, bei RTMP mit Stream-Key, bei SRT mit Stream-ID, Passphrase (Verschlüsselung) und Latenz; bricht die Verbindung ab, verbindet die App von selbst neu (nur in IRL4YOU Cam Net)
+- Statt der Handy-Kamera DJI-Kameras und andere Kameras, die RTMP senden, als Bildquelle nutzen (nur IRL4YOU Cam Net): bis zu drei Kameras gleichzeitig, eine als Hauptbild, die anderen als kleine Bilder (Bild in Bild) mit frei wählbarer Stelle und Rahmen; Hauptbild und Ton lassen sich auch während der Sendung umschalten. DJI-Kameras werden per Bluetooth gekoppelt und eingerichtet und senden an das Handy im selben WLAN (zum Beispiel dem Hotspot); getestet mit Osmo Action 4 und Osmo Action 6. Bei Kameras anderer Marken trägst du Server und Stream-Key, die die App anzeigt, in der Kamera ein
 - Verbindung weitergeben: Neben jeder Verbindung (Stift) zeigt die App einen QR-Code. Auf dem anderen Handy mit der Kamera-App scannen, der Link öffnet die App und bietet das Übernehmen an. Alternativ den Link kopieren und mit „Verbindung aus Link einfügen“ übernehmen. Der QR-Code wird in der App selbst erzeugt, ohne zusätzliche Bibliothek. Er enthält Adresse und Schlüssel, also nur kurz zeigen
 - Einstellungen sichern: Verbindungen und Einstellungen in eine Datei schreiben, mit Passwort verschlüsselt (nur Bordmittel von Android), und auf dem nächsten Handy wiederherstellen (Knöpfe unten auf der Verbindungsseite)
 - Mehrere Verbindungen speichern (eigene Seite, je mit Namen und Kurzinfo), eine anhaken und senden; IRL4YOU Cam Net merkt sich Adresse, Key und Netze je Verbindung. Beim Senden bleibt die Verbindungsseite gesperrt, damit nichts Privates auf dem Bildschirm steht
@@ -74,6 +75,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 - Keine Aufnahme auf dem Handy, keine Filter, keine Effekte, keine Einblendungen
 - Per USB nur mit der IRL4YOU BOX
 - H.265 per RTMP nur bei Servern mit Enhanced RTMP; wer sicher gehen will, nimmt H.264
+- DJI- und RTMP-Kameras als Bildquelle: nur H.264, höchstens 30 Bilder pro Sekunde
 - **Mit VPN (zum Beispiel Tailscale)** schickt Android auch die Net-App durch das VPN, wenn die VPN-App alles umleitet (etwa mit einem Exit-Node). Dann meldet die App „Server antwortet nicht“. Lösung: die App in der VPN-App vom VPN ausnehmen. Bei Tailscale (ab Version 1.70): Profilbild antippen, „App-based split tunneling“ wählen und „IRL4YOU Cam Net“ anhaken. Andere VPN-Apps haben dafür „Split Tunneling“ oder „Apps ausnehmen“. Alternativ das VPN zum Senden ausschalten.
 - Dreht man das Handy während einer Übertragung ins Netz zwischen Hoch- und Querformat, ändert sich die Bildgröße, und manche Server verkraften das nicht
 - Bei Handys ohne Sammelkamera entsteht beim Zoomen über eine Linsengrenze eine kurze Lücke im Bild
@@ -103,7 +105,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 1. Auf dem Handy die [Releases](../../releases/latest) öffnen und `IRL4YOU-Cam.apk` herunterladen.
 2. Die heruntergeladene Datei öffnen. Android fragt, ob Installationen aus dieser Quelle (zum Beispiel dem Browser) erlaubt sind. Einmal erlauben, dann „Installieren“ tippen.
-3. App „IRL4YOU Cam“ starten und die Berechtigungen für Kamera, Mikrofon und Benachrichtigungen erlauben. Die Benachrichtigung braucht Android, damit die App im Hintergrund weitersenden darf.
+3. App „IRL4YOU Cam“ starten und die Berechtigungen für Kamera, Mikrofon und Benachrichtigungen erlauben. Die Benachrichtigung braucht Android, damit die App im Hintergrund weitersenden darf. Für DJI-Kameras kommen Bluetooth (Geräte in der Nähe) und Standort dazu; der Standort dient nur dazu, WLAN-Namen zu lesen und zu suchen.
 4. Updates: neue APK herunterladen und einfach über die alte installieren. Einstellungen bleiben erhalten.
 
 ### So benutzt du die App
@@ -129,6 +131,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 - Sends the phone's video and audio to the box over a USB cable, without Wi-Fi
 - Alternatively sends over RTMP, RTMPS, SRT or SRTLA to a server (for example Twitch, YouTube or your own server): address in the menu, with a stream key for RTMP, with stream ID, passphrase (encryption) and latency for SRT; if the connection drops, the app reconnects by itself (IRL4YOU Cam Net only)
+- Use DJI cameras and other cameras that send RTMP as the picture source instead of the phone camera (IRL4YOU Cam Net only): up to three cameras at once, one as the main picture and the others as small pictures (picture in picture) with a freely chosen position and frame; main picture and sound can also be switched while sending. DJI cameras are paired and set up over Bluetooth and send to the phone in the same Wi-Fi (for example its hotspot); tested with Osmo Action 4 and Osmo Action 6. For cameras of other brands you enter the server and stream key shown by the app in the camera
 - Share a connection: next to each connection (pencil) the app shows a QR code. Scan it with the camera app of the other phone, the link opens the app and offers to add it. Alternatively copy the link and use "Verbindung aus Link einfügen" (paste connection from link). The QR code is generated inside the app, with no additional library. It contains address and key, so show it only briefly
 - Back up settings: write connections and settings to one file, encrypted with a password (Android built-ins only), and restore them on the next phone (buttons at the bottom of the connections page)
 - Save several connections (own page, each with a name and a short summary), tick one and send; IRL4YOU Cam Net remembers address, key and networks per connection. While sending, the connections page stays locked so nothing private is on screen
@@ -157,6 +160,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 - No recording on the phone, no filters, no effects, no overlays
 - Over USB it works only with the IRL4YOU BOX
 - H.265 over RTMP only with servers that support Enhanced RTMP; choose H.264 to be safe
+- DJI and RTMP cameras as the picture source: H.264 only, at most 30 frames per second
 - **With a VPN (for example Tailscale)** Android also sends the Net app through the VPN when the VPN app redirects everything (for example with an exit node). The app then reports "Server antwortet nicht" (server does not answer). Fix: exclude the app from the VPN in the VPN app. With Tailscale (version 1.70 or later): tap your profile picture, choose "App-based split tunneling" and tick "IRL4YOU Cam Net". Other VPN apps call this "split tunneling" or "exclude apps". Alternatively turn the VPN off while sending.
 - Rotating the phone between portrait and landscape during a stream over the network changes the picture size, and some servers cannot handle that
 - On phones without a logical multi-camera, zooming across a lens boundary causes a short gap in the picture
@@ -186,7 +190,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 1. On the phone, open the [Releases](../../releases/latest) and download `IRL4YOU-Cam.apk`.
 2. Open the downloaded file. Android asks whether installs from this source (for example the browser) are allowed. Allow it once, then tap "Install".
-3. Start the app "IRL4YOU Cam" and allow the permissions for camera, microphone and notifications. Android needs the notification so the app may keep sending in the background.
+3. Start the app "IRL4YOU Cam" and allow the permissions for camera, microphone and notifications. Android needs the notification so the app may keep sending in the background. For DJI cameras, Bluetooth (nearby devices) and location are added; location is only used to read and search Wi-Fi names.
 4. Updates: download the new APK and install it over the old one. Settings are kept.
 
 ### How to use the app

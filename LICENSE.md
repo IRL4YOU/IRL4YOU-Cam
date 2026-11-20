@@ -10,7 +10,7 @@ Copyright (c) 2026 IRL4YOU. Alle Rechte vorbehalten.
 4. **Keine Gewähr.** Die Apps werden ohne Gewähr bereitgestellt. Die Haftung ist, soweit gesetzlich zulässig, auf Vorsatz und grobe Fahrlässigkeit beschränkt.
 5. **Verstoß.** Bei einem Verstoß endet deine Berechtigung zur Nutzung.
 
-**Enthaltene Bestandteile.** Die Apps enthalten die Kotlin-Standardbibliothek (© JetBrains s.r.o. und Mitwirkende). Für diesen Bestandteil gilt die [Apache-Lizenz 2.0](https://www.apache.org/licenses/LICENSE-2.0), nicht diese Nutzungslizenz.
+**Enthaltene Bestandteile.** Die Apps enthalten die Kotlin-Standardbibliothek (© JetBrains s.r.o. und Mitwirkende). Für diesen Bestandteil gilt die [Apache-Lizenz 2.0](https://www.apache.org/licenses/LICENSE-2.0), nicht diese Nutzungslizenz. Die Bluetooth-Steuerung der DJI-Kameras in IRL4YOU Cam Net folgt Projekten unter MIT-Lizenz (Moblin, node-osmo, IRL4YOU BOX); Namen und Lizenztexte stehen in [NOTICE.md](NOTICE.md).
 
 ## English
 
@@ -20,4 +20,4 @@ Copyright (c) 2026 IRL4YOU. Alle Rechte vorbehalten.
 4. **No warranty.** The apps are provided as is. Liability is limited to intent and gross negligence to the extent permitted by law.
 5. **Breach.** Your right to use the app ends if you breach these terms.
 
-**Included components.** The apps contain the Kotlin standard library (© JetBrains s.r.o. and contributors). That component is covered by the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0), not by this licence.
+**Included components.** The apps contain the Kotlin standard library (© JetBrains s.r.o. and contributors). That component is covered by the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0), not by this licence. The Bluetooth control of the DJI cameras in IRL4YOU Cam Net follows projects under the MIT licence (Moblin, node-osmo, IRL4YOU BOX); names and licence texts are in [NOTICE.md](NOTICE.md).

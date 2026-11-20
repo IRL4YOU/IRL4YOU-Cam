@@ -43,6 +43,11 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 </p>
 
 <p align="center">
+  <img src="bilder/dji-rahmen.jpg" width="360" alt="Bild in Bild: Größe, Rahmenfarbe und Position der kleinen Bilder / Picture-in-picture: size, frame colour and position of the small pictures"><br>
+  <sub>Bild in Bild: Größe, Rahmenfarbe und Position der kleinen Bilder / Picture-in-picture: size, frame colour and position of the small pictures</sub>
+</p>
+
+<p align="center">
   <img src="bilder/dji-live.jpg" width="720" alt="Beim Senden mit mehreren DJI-Kameras: Hauptbild, kleine Bilder, Kamera-Umschalter unten rechts / Sending with several DJI cameras: main picture, small pictures, camera switcher at the bottom right"><br>
   <sub>Beim Senden mit Kameras: Umschalter für Hauptbild und Ton (Kamerabilder im Screenshot ersetzt) / Sending with cameras: switcher for main picture and sound (camera pictures replaced in the screenshot)</sub>
 </p>

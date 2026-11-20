@@ -80,7 +80,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 - **Umschalten:** Auf dem Hauptbildschirm hat jede Kamera ein Symbol mit Akkustand und Ladeanzeige. Antippen macht sie zum Hauptbild, das Mikrofon im Symbol legt fest, von welcher Kamera der Ton kommt (Standard: die Facecam). Das geht auch während der Sendung
 - **Andere Marken:** Kameras, die nur RTMP senden, trägst du mit einem Namen ein und gibst Server und Stream-Key, die die App anzeigt, in der Kamera ein
 - **Weiter zum Server:** wie sonst per RTMP, SRT oder SRTLA, mit allen Netzen und der Regelung der Datenrate
-- **Dranbleiben:** Bei eingeschalteter Quelle hält ein Dienst mit Benachrichtigung die Verbindung zu den Kameras, auch bei ausgeschaltetem Bildschirm
+- **Dranbleiben:** Bei eingeschalteter Quelle hält ein Dienst mit Benachrichtigung die Verbindung zu den Kameras, auch bei ausgeschaltetem Bildschirm; nach einem Neustart der App (zum Beispiel nach einem Update) verbinden sich zuvor verbundene Kameras von selbst wieder
 - **Grenzen:** die Kameras liefern nur H.264 und höchstens 30 Bilder pro Sekunde; es sind höchstens drei Kameras gleichzeitig möglich (mehr ist nicht getestet); Handy und Kameras müssen im selben WLAN sein, zum Beispiel im Hotspot des Handys oder an einem Router
 - IRL4YOU Cam ist kein Produkt von DJI und steht in keiner Verbindung zu DJI. Hinweise zu den Projekten, denen die Bluetooth-Steuerung folgt, stehen in [NOTICE.md](NOTICE.md)
 
@@ -186,7 +186,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 - **Switching:** on the main screen each camera has a symbol with battery level and charging indicator. Tapping it makes it the main picture, the microphone in the symbol sets which camera the sound comes from (default: the facecam). This also works while sending
 - **Other brands:** cameras that only send RTMP are added with a name, and you enter the server and stream key shown by the app in the camera
 - **On to the server:** as usual over RTMP, SRT or SRTLA, with all networks and the bitrate regulation
-- **Staying connected:** with the source switched on, a service with a notification keeps the connection to the cameras, even with the screen off
+- **Staying connected:** with the source switched on, a service with a notification keeps the connection to the cameras, even with the screen off; after the app restarts (for example after an update), cameras that were connected before reconnect on their own
 - **Limits:** the cameras deliver H.264 only and at most 30 frames per second; at most three cameras at the same time are possible (more is not tested); phone and cameras must be in the same Wi-Fi, for example the phone's hotspot or a router
 - IRL4YOU Cam is not a DJI product and is not affiliated with DJI. Notes on the projects the Bluetooth control follows are in [NOTICE.md](NOTICE.md)
 

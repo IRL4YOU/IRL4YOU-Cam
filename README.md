@@ -9,7 +9,7 @@ Mehr dazu auf der Webseite: [irl4you.de](https://irl4you.de/irl4you-cam-apps.htm
 
 | | <img src="bilder/logo-cam.png" width="56" alt=""><br>**IRL4YOU Cam** | <img src="bilder/logo-net.png" width="56" alt=""><br>**IRL4YOU Cam Net** | <img src="bilder/logo-link.png" width="56" alt=""><br>**IRL4YOU Stream Link** |
 |---|---|---|---|
-| Datei / File | `IRL4YOU-Cam.apk` | `IRL4YOU-Cam-Net.apk` | `IRL4YOU-Stream-Link.apk` |
+| Download | [`IRL4YOU-Cam.apk`](https://github.com/IRL4YOU/IRL4YOU-Cam/releases/latest/download/IRL4YOU-Cam.apk) | [`IRL4YOU-Cam-Net.apk`](https://github.com/IRL4YOU/IRL4YOU-Cam/releases/latest/download/IRL4YOU-Cam-Net.apk) | [`IRL4YOU-Stream-Link.apk`](https://github.com/IRL4YOU/IRL4YOU-Cam/releases/latest/download/IRL4YOU-Stream-Link.apk) |
 | Sendet an / Sends to | IRL4YOU BOX per USB-Kabel / via USB cable | USB-Box und zusätzlich RTMP, RTMPS, SRT, SRTLA / USB box plus RTMP, RTMPS, SRT, SRTLA | reicht den Stream der IRL4YOU BOX oder von IRL4YOU Cam Net über den eigenen Mobilfunk weiter / passes the stream of the IRL4YOU BOX or of IRL4YOU Cam Net on over its own mobile network |
 | Bildquelle / Picture source | Handy-Kamera / phone camera | Handy-Kamera oder bis zu drei DJI- und RTMP-Kameras / phone camera or up to three DJI and RTMP cameras | keine / none |
 | Internet-Berechtigung / Internet permission | nein / no | ja / yes | ja / yes |
@@ -21,7 +21,7 @@ All three can be installed side by side (separate app ID) and have separate vers
 **Neu: DJI-Kameras als Bildquelle.** IRL4YOU Cam Net verbindet sich per Bluetooth mit DJI-Kameras (getestet: Osmo Action 4 und Osmo Action 6), schickt ihnen das WLAN, startet ihren Livestream und nimmt ihn per RTMP direkt auf dem Handy entgegen. Bis zu drei Kameras werden zu einem Bild zusammengesetzt (Hauptbild und kleine Bilder) und per SRT, SRTLA oder RTMP an deinen Server gesendet. Auch andere Kameras, die RTMP senden, lassen sich einbinden. Siehe „DJI-Kameras und andere RTMP-Kameras“.
 **New: DJI cameras as a picture source.** IRL4YOU Cam Net connects to DJI cameras over Bluetooth (tested: Osmo Action 4 and Osmo Action 6), hands them the Wi-Fi, starts their live stream and receives it over RTMP right on the phone. Up to three cameras are combined into one picture (main picture and small pictures) and sent to your server over SRT, SRTLA or RTMP. Other cameras that send RTMP can be added as well. See "DJI cameras and other RTMP cameras".
 
-**Download:** [Releases](../../releases/latest), dort liegen immer alle drei Dateien (nur Android) / all three files are always there (Android only)
+**Download:** Die Dateinamen in der Tabelle oben laden direkt die aktuelle Version. Alle drei Dateien und die Änderungen stehen unter [Releases](../../releases/latest) (nur Android) / The file names in the table above download the current version directly. All three files and the changes are under [Releases](../../releases/latest) (Android only)
 
 Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Ziele. IRL4YOU Stream Link hat einen eigenen Abschnitt. / The description below covers IRL4YOU Cam Net; IRL4YOU Cam has no server targets. IRL4YOU Stream Link has its own section.
 

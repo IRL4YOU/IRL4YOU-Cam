@@ -86,7 +86,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 - Logs-Knopf: Ereignisse und Kamera-Info lassen sich kopieren oder als Textdatei speichern, zum Beispiel für eine Fehlermeldung
 - Oberfläche auf Deutsch und Englisch, je nach Sprache des Handys
 - Anzeige für Akkustand, Ladezustand, Strom und Temperatur des Handys, auch auf der Box sichtbar
-- Sparsam gebaut: Das Bild kodiert der Video-Encoder des Handys (in der Regel in Hardware) und die Grafikeinheit dreht es, ohne zusätzliche Bibliotheken und mit weniger als 1 MB Größe; den Internetzugriff brauchen nur IRL4YOU Cam Net und IRL4YOU Stream Link
+- Sparsam gebaut: Das Bild kodiert der Video-Encoder des Handys (in der Regel in Hardware) und die Grafikeinheit dreht es, ohne zusätzliche Bibliotheken und mit rund 1 MB Größe je App; den Internetzugriff brauchen nur IRL4YOU Cam Net und IRL4YOU Stream Link
 
 ### DJI-Kameras und andere RTMP-Kameras (nur IRL4YOU Cam Net)
 
@@ -192,7 +192,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 - Logs button: events and camera info can be copied or saved as a text file, for example for a bug report
 - Interface in German and English, depending on the phone's language
 - Shows battery level, charging state, current and temperature of the phone, also visible on the box
-- Built to be frugal: the picture is encoded by the phone's video encoder (usually in hardware) and rotated by the graphics unit, with no additional libraries and a size below 1 MB; only IRL4YOU Cam Net and IRL4YOU Stream Link need internet access
+- Built to be frugal: the picture is encoded by the phone's video encoder (usually in hardware) and rotated by the graphics unit, with no additional libraries and a size of about 1 MB per app; only IRL4YOU Cam Net and IRL4YOU Stream Link need internet access
 
 ### DJI cameras and other RTMP cameras (IRL4YOU Cam Net only)
 

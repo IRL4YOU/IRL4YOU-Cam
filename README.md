@@ -38,6 +38,16 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 </p>
 
 <p align="center">
+  <img src="bilder/dji-kameras.jpg" width="360" alt="DJI- und RTMP-Kameras: drei Osmo Action mit Rolle, Akku und Rahmen für Bild in Bild / DJI and RTMP cameras: three Osmo Action with role, battery and picture-in-picture frame"><br>
+  <sub>DJI-Kameras (nur IRL4YOU Cam Net): Rollen, Akku, Bild in Bild / DJI cameras (IRL4YOU Cam Net only): roles, battery, picture-in-picture</sub>
+</p>
+
+<p align="center">
+  <img src="bilder/dji-live.jpg" width="720" alt="Beim Senden mit mehreren DJI-Kameras: Hauptbild, kleine Bilder, Kamera-Umschalter unten rechts / Sending with several DJI cameras: main picture, small pictures, camera switcher at the bottom right"><br>
+  <sub>Beim Senden mit Kameras: Umschalter für Hauptbild und Ton (Kamerabilder im Screenshot ersetzt) / Sending with cameras: switcher for main picture and sound (camera pictures replaced in the screenshot)</sub>
+</p>
+
+<p align="center">
   <img src="bilder/box.png" width="720" alt="Kachel Handy auf der Box: Akku, Temperatur, Laden oder Entladen / Phone tile on the box: battery, temperature, charging or discharging"><br>
   <sub>Anzeige auf der Box: Akku, Temperatur, Laden oder Entladen / Display on the box: battery, temperature, charging or discharging</sub>
 </p>

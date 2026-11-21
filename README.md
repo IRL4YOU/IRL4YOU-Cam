@@ -11,15 +11,15 @@ Mehr dazu auf der Webseite: [irl4you.de](https://irl4you.de/irl4you-cam-apps.htm
 |---|---|---|---|
 | Download | [`IRL4YOU-Cam.apk`](https://github.com/IRL4YOU/IRL4YOU-Cam/releases/latest/download/IRL4YOU-Cam.apk) | [`IRL4YOU-Cam-Net.apk`](https://github.com/IRL4YOU/IRL4YOU-Cam/releases/latest/download/IRL4YOU-Cam-Net.apk) | [`IRL4YOU-Stream-Link.apk`](https://github.com/IRL4YOU/IRL4YOU-Cam/releases/latest/download/IRL4YOU-Stream-Link.apk) |
 | Sendet an / Sends to | IRL4YOU BOX per USB-Kabel / via USB cable | USB-Box und zusätzlich RTMP, RTMPS, SRT, SRTLA / USB box plus RTMP, RTMPS, SRT, SRTLA | reicht den Stream der IRL4YOU BOX oder von IRL4YOU Cam Net über den eigenen Mobilfunk weiter / passes the stream of the IRL4YOU BOX or of IRL4YOU Cam Net on over its own mobile network |
-| Bildquelle / Picture source | Handy-Kamera / phone camera | Handy-Kamera oder bis zu drei DJI- und RTMP-Kameras / phone camera or up to three DJI and RTMP cameras | keine / none |
+| Bildquelle / Picture source | Handy-Kamera / phone camera | Handy-Kamera oder bis zu vier DJI- und RTMP-Kameras / phone camera or up to four DJI and RTMP cameras | keine / none |
 | Internet-Berechtigung / Internet permission | nein / no | ja / yes | ja / yes |
 | Gedacht für / Meant for | IRL4YOU Cam, nur mit der BOX / IRL4YOU Cam, BOX only | wer auch an eigene Server oder mehrere Netze senden will, oder DJI-Kameras ohne zusätzliche Box nutzen möchte / for sending to your own servers or over several networks, or for using DJI cameras without an extra box | ein zweites Handy als weiterer Sendeweg für SRTLA an der BOX oder an IRL4YOU Cam Net, ohne Kamera und Mikrofon / a second phone as an additional SRTLA uplink for the BOX or IRL4YOU Cam Net, without camera or microphone |
 
 Alle drei lassen sich nebeneinander installieren (eigene App-Kennung) und haben getrennte Versionsnummern.
 All three can be installed side by side (separate app ID) and have separate version numbers.
 
-**Neu: DJI-Kameras als Bildquelle.** IRL4YOU Cam Net verbindet sich per Bluetooth mit DJI-Kameras (getestet: Osmo Action 4 und Osmo Action 6), schickt ihnen das WLAN, startet ihren Livestream und nimmt ihn per RTMP direkt auf dem Handy entgegen. Bis zu drei Kameras werden zu einem Bild zusammengesetzt (Hauptbild und kleine Bilder) und per SRT, SRTLA oder RTMP an deinen Server gesendet. Auch andere Kameras, die RTMP senden, lassen sich einbinden. Siehe „DJI-Kameras und andere RTMP-Kameras“.
-**New: DJI cameras as a picture source.** IRL4YOU Cam Net connects to DJI cameras over Bluetooth (tested: Osmo Action 4 and Osmo Action 6), hands them the Wi-Fi, starts their live stream and receives it over RTMP right on the phone. Up to three cameras are combined into one picture (main picture and small pictures) and sent to your server over SRT, SRTLA or RTMP. Other cameras that send RTMP can be added as well. See "DJI cameras and other RTMP cameras".
+**Neu: DJI-Kameras als Bildquelle.** IRL4YOU Cam Net verbindet sich per Bluetooth mit DJI-Kameras (getestet: Osmo Action 4 und Osmo Action 6), schickt ihnen das WLAN, startet ihren Livestream und nimmt ihn per RTMP direkt auf dem Handy entgegen. Bis zu vier Kameras werden zu einem Bild zusammengesetzt (Hauptbild und kleine Bilder) und per SRT, SRTLA oder RTMP an deinen Server gesendet. Auch andere Kameras, die RTMP senden, lassen sich einbinden. Siehe „DJI-Kameras und andere RTMP-Kameras“.
+**New: DJI cameras as a picture source.** IRL4YOU Cam Net connects to DJI cameras over Bluetooth (tested: Osmo Action 4 and Osmo Action 6), hands them the Wi-Fi, starts their live stream and receives it over RTMP right on the phone. Up to four cameras are combined into one picture (main picture and small pictures) and sent to your server over SRT, SRTLA or RTMP. Other cameras that send RTMP can be added as well. See "DJI cameras and other RTMP cameras".
 
 **Download:** Die Dateinamen in der Tabelle oben laden direkt die aktuelle Version. Alle drei Dateien und die Änderungen stehen unter [Releases](../../releases/latest) (nur Android) / The file names in the table above download the current version directly. All three files and the changes are under [Releases](../../releases/latest) (Android only)
 
@@ -28,8 +28,8 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 ## Screenshots
 
 <p align="center">
-  <img src="bilder/bedienfeld.jpg" width="720" alt="Bedienfeld: Linse, Codec, Bildrate, Bitrate / Control panel: lens, codec, frame rate, bitrate"><br>
-  <sub>Bedienfeld / Control panel</sub>
+  <img src="bilder/menue.jpg" width="360" alt="Menü: Gruppen Stream und Handykamera, Verbindungen, DJI-Kameras / Menu: groups Stream and Phone camera, connections, DJI cameras"><br>
+  <sub>Menü (IRL4YOU Cam Net): Stream (Codec, Auflösung und Bildrate, Bitrate) und Handykamera (Linse, Bildschärfe) / Menu (IRL4YOU Cam Net): Stream (codec, resolution and frame rate, bitrate) and phone camera (lens, sharpness)</sub>
 </p>
 
 <p align="center">
@@ -38,18 +38,23 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 </p>
 
 <p align="center">
-  <img src="bilder/dji-kameras.jpg" width="360" alt="DJI- und RTMP-Kameras: drei Osmo Action mit Rolle, Akku und Rahmen für Bild in Bild / DJI and RTMP cameras: three Osmo Action with role, battery and picture-in-picture frame"><br>
-  <sub>DJI-Kameras (nur IRL4YOU Cam Net): Rollen, Akku, Bild in Bild / DJI cameras (IRL4YOU Cam Net only): roles, battery, picture-in-picture</sub>
+  <img src="bilder/dji-kameras.jpg" width="360" alt="Kameraseite: nummerierte Kameras mit Rolle, Akku, Datenrate und Stabilisierung je Kamera / Camera page: numbered cameras with role, battery, data rate and stabilisation per camera"><br>
+  <sub>Kameraseite (nur IRL4YOU Cam Net): nummerierte Kameras, Rolle, Akku, Datenrate und Stabilisierung je Kamera (Beispieldaten) / Camera page (IRL4YOU Cam Net only): numbered cameras, role, battery, data rate and stabilisation per camera (sample data)</sub>
 </p>
 
 <p align="center">
-  <img src="bilder/dji-rahmen.jpg" width="360" alt="Bild in Bild: Größe, Rahmenfarbe und Position der kleinen Bilder / Picture-in-picture: size, frame colour and position of the small pictures"><br>
-  <sub>Bild in Bild: Größe, Rahmenfarbe und Position der kleinen Bilder / Picture-in-picture: size, frame colour and position of the small pictures</sub>
+  <img src="bilder/dji-rahmen.jpg" width="360" alt="Bild in Bild: Größe, Rahmenfarbe und neun feste Stellen für die kleinen Bilder, mit Kameranummern / Picture-in-picture: size, frame colour and nine fixed spots for the small pictures, with camera numbers"><br>
+  <sub>Bild in Bild: Größe, Rahmenfarbe und neun feste Stellen für die kleinen Bilder, mit Kameranummern / Picture-in-picture: size, frame colour and nine fixed spots for the small pictures, with camera numbers</sub>
 </p>
 
 <p align="center">
-  <img src="bilder/dji-live.jpg" width="720" alt="Beim Senden mit mehreren DJI-Kameras: Hauptbild, kleine Bilder, Kamera-Umschalter unten rechts / Sending with several DJI cameras: main picture, small pictures, camera switcher at the bottom right"><br>
-  <sub>Beim Senden mit Kameras: Umschalter für Hauptbild und Ton (Kamerabilder im Screenshot ersetzt) / Sending with cameras: switcher for main picture and sound (camera pictures replaced in the screenshot)</sub>
+  <img src="bilder/dji-knoepfe.jpg" width="720" alt="Kamera-Knöpfe auf dem Hauptbildschirm: Nummer, Rolle, Akku, Statuspunkt, Mikrofon, Dreieck / Camera buttons on the main screen: number, role, battery, status dot, microphone, triangle"><br>
+  <sub>Kamera-Knöpfe auf dem Hauptbildschirm (nur IRL4YOU Cam Net) / Camera buttons on the main screen (IRL4YOU Cam Net only)</sub>
+</p>
+
+<p align="center">
+  <img src="bilder/dji-ausblenden.jpg" width="720" alt="Lang drücken blendet eine Kamera aus: Bild weg, Mikrofon bleibt gelb / A long press hides a camera: picture gone, microphone stays yellow"><br>
+  <sub>Eine Kamera ausblenden: sie bleibt verbunden, nur ihr Bild fehlt (Beispielbilder) / Hiding a camera: it stays connected, only its picture is missing (sample pictures)</sub>
 </p>
 
 <p align="center">
@@ -65,7 +70,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 - Bild und Ton des Handys per USB-Kabel an die Box senden, ohne WLAN
 - Alternativ per RTMP, RTMPS, SRT oder SRTLA an einen Server senden (zum Beispiel Twitch, YouTube oder ein eigener Server): Adresse im Menü, bei RTMP mit Stream-Key, bei SRT mit Stream-ID, Passphrase (Verschlüsselung) und Latenz; bricht die Verbindung ab, verbindet die App von selbst neu (nur in IRL4YOU Cam Net)
-- Statt der Handy-Kamera DJI-Kameras und andere Kameras, die RTMP senden, als Bildquelle nutzen (nur IRL4YOU Cam Net): bis zu drei Kameras gleichzeitig (mehr sind noch nicht möglich), eine als Hauptbild, die anderen als kleine Bilder (Bild in Bild) mit frei wählbarer Stelle und Rahmen; Hauptbild und Ton lassen sich auch während der Sendung umschalten. DJI-Kameras werden per Bluetooth gekoppelt und eingerichtet und senden an das Handy im selben WLAN (zum Beispiel dem Hotspot); getestet mit Osmo Action 4 und Osmo Action 6. Bei Kameras anderer Marken trägst du Server und Stream-Key, die die App anzeigt, in der Kamera ein
+- Statt der Handy-Kamera DJI-Kameras und andere Kameras, die RTMP senden, als Bildquelle nutzen (nur IRL4YOU Cam Net): bis zu vier Kameras gleichzeitig (mehr sind nicht möglich), eine als Hauptbild, die anderen als kleine Bilder (Bild in Bild) mit frei wählbarer Stelle und Rahmen; Hauptbild und Ton lassen sich auch während der Sendung umschalten. DJI-Kameras werden per Bluetooth gekoppelt und eingerichtet und senden an das Handy im selben WLAN (zum Beispiel dem Hotspot); getestet mit Osmo Action 4 und Osmo Action 6. Bei Kameras anderer Marken trägst du Server und Stream-Key, die die App anzeigt, in der Kamera ein
 - Verbindung weitergeben: Neben jeder Verbindung (Stift) zeigt die App einen QR-Code. Auf dem anderen Handy mit der Kamera-App scannen, der Link öffnet die App und bietet das Übernehmen an. Alternativ den Link kopieren und mit „Verbindung aus Link einfügen“ übernehmen. Der QR-Code wird in der App selbst erzeugt, ohne zusätzliche Bibliothek. Er enthält Adresse und Schlüssel, also nur kurz zeigen
 - Einstellungen sichern: Verbindungen und Einstellungen in eine Datei schreiben, mit Passwort verschlüsselt (nur Bordmittel von Android), und auf dem nächsten Handy wiederherstellen (Knöpfe unten auf der Verbindungsseite)
 - Mehrere Verbindungen speichern (eigene Seite, je mit Namen und Kurzinfo), eine anhaken und senden; IRL4YOU Cam Net merkt sich Adresse, Key und Netze je Verbindung. Beim Senden bleibt die Verbindungsseite gesperrt, damit nichts Privates auf dem Bildschirm steht
@@ -74,6 +79,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 - Bildschärfe wählbar (Standard oder schärfer, mit weniger oder stärkerer Rauschglättung der Kamera)
 - Video als H.264 oder H.265, bis 1080p mit 25, 30, 50 oder 60 Bildern pro Sekunde; in IRL4YOU Cam Net zusätzlich 720p mit 25, 30, 50 oder 60
 - Ton als AAC in Stereo oder Mono (vor dem Livegang wählbar), Mikrofon per Knopf stumm schalten; das Menü ist auch im Querformat erreichbar
+- Verlauf der Datenrate auf dem Handy-Bildschirm einblendbar (Haken im Menü, standardmäßig aus); er wird nicht mitgesendet (nur IRL4YOU Cam Net)
 - Pegelanzeige für den Ton am unteren Bildrand und Lautstärkeregler von −12 bis +24 dB, auch während der Übertragung
 - Vollbild: Die Vorschau füllt den ganzen Bildschirm (abschaltbar, gesendet wird immer das volle Bild); die Akkuanzeige zeigt „lädt“ grün und „sinkt“ orange oder rot; die Temperatur färbt sich, sobald das Handy selbst meldet, dass es wegen Hitze drosselt
 - Bitrate wählbar, bis 10 Mbit/s (bei RTMP und SRT ab 1 Mbit/s); im Netz senkt die App die Datenrate selbst, wenn es zu langsam wird
@@ -91,12 +97,13 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 ### DJI-Kameras und andere RTMP-Kameras (nur IRL4YOU Cam Net)
 
 - **Was geht:** DJI-Kameras ersetzen die Handy-Kamera als Bildquelle. Die App koppelt die Kamera per Bluetooth, trägt das WLAN ein, startet den Stream und nimmt ihn auf dem Handy entgegen. Getestet sind Osmo Action 4 und Osmo Action 6. Osmo Action 5 Pro und Osmo Pocket 3 laufen mit derselben Bluetooth-Steuerung bereits an der IRL4YOU BOX; in dieser App wurden sie noch nicht ausprobiert. Osmo Pocket 4 und Osmo Pocket 4 Pro sind mit eingebaut und sollten funktionieren, wurden aber leider noch nicht getestet
-- **Mehrere Kameras:** bis zu drei gleichzeitig. Eine Kamera ist das Hauptbild, die anderen erscheinen klein im Bild (Bild in Bild). Die Facecam und weitere Kameras (Nebencams) setzt du frei an eine Stelle deiner Wahl, auf Wunsch mit Rahmen in einer von acht Farben
-- **Umschalten:** Auf dem Hauptbildschirm hat jede Kamera ein Symbol mit Akkustand und Ladeanzeige. Antippen macht sie zum Hauptbild, das Mikrofon im Symbol legt fest, von welcher Kamera der Ton kommt (Standard: die Facecam). Das geht auch während der Sendung
+- **Mehrere Kameras:** bis zu vier gleichzeitig. Eine Kamera ist das Hauptbild, die anderen erscheinen klein im Bild (Bild in Bild). Die Facecam und weitere Kameras (Nebencams) setzt du an eine der festen Stellen (Ecken, Mitte oben und unten, links und rechts Mitte, Bildmitte) oder frei, auf Wunsch mit Rahmen in einer von acht Farben. Liegen zwei kleine Bilder an derselben Stelle, schiebt die App eines daneben
+- **Umschalten:** Auf dem Hauptbildschirm hat jede Kamera ein Symbol mit Nummer, Rolle, Akkustand, Ladeanzeige und Statuspunkt (grün: Bilder kommen an, gelb: stockt, Ring: Kamera nicht da). Antippen oben macht sie zum Hauptbild, das Mikrofon im Symbol legt fest, von welcher Kamera der Ton kommt (Standard: die Facecam). Das geht auch während der Sendung. **Langes Drücken blendet eine Kamera aus und wieder ein:** sie bleibt verbunden und sendet weiter an das Handy, ihr Bild fehlt nur im gesendeten Bild; der Ton bleibt, wenn er von ihr kommt. Mit dem Dreieck am Rand klappst du die Reihe weg (im Hochformat sitzt das Dreieck dann neben dem Mikrofon-Knopf). Die Nummer steht auch auf der Kameraseite vor jeder Kamera
+- **Je Kamera einstellbar:** Datenrate und Bildstabilisierung wählst du auf der Kameraseite für jede Kamera einzeln. „Alle Kameras neu verbinden“ übernimmt Änderungen, wenn gerade nicht gesendet wird. Die Erklärtexte auf der Kameraseite stehen hinter einem kleinen ⓘ
 - **Andere Marken:** Kameras, die nur RTMP senden, trägst du mit einem Namen ein und gibst Server und Stream-Key, die die App anzeigt, in der Kamera ein
 - **Weiter zum Server:** wie sonst per RTMP, SRT oder SRTLA, mit allen Netzen und der Regelung der Datenrate
-- **Dranbleiben:** Bei eingeschalteter Quelle hält ein Dienst mit Benachrichtigung die Verbindung zu den Kameras, auch bei ausgeschaltetem Bildschirm; nach einem Neustart der App (zum Beispiel nach einem Update) verbinden sich zuvor verbundene Kameras von selbst wieder
-- **Grenzen:** die Kameras liefern nur H.264 und höchstens 30 Bilder pro Sekunde; es sind höchstens drei Kameras gleichzeitig möglich (mehr ist nicht getestet); Handy und Kameras müssen im selben WLAN sein, zum Beispiel im Hotspot des Handys oder an einem Router
+- **Dranbleiben:** Bei eingeschalteter Quelle hält ein Dienst mit Benachrichtigung die Verbindung zu den Kameras, auch bei ausgeschaltetem Bildschirm; nach einem Neustart der App (zum Beispiel nach einem Update) verbinden sich zuvor verbundene Kameras von selbst wieder; „Beenden“ in der Benachrichtigung trennt alle Kameras und beendet die App
+- **Grenzen:** die Kameras liefern nur H.264 und höchstens 30 Bilder pro Sekunde; es sind höchstens vier Kameras gleichzeitig möglich; Handy und Kameras müssen im selben WLAN sein, zum Beispiel im Hotspot des Handys oder an einem Router
 - IRL4YOU Cam ist kein Produkt von DJI und steht in keiner Verbindung zu DJI. Hinweise zu den Projekten, denen die Bluetooth-Steuerung folgt, stehen in [NOTICE.md](NOTICE.md)
 
 ### Was die App nicht kann
@@ -105,7 +112,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 - Keine Aufnahme auf dem Handy, keine Filter, keine Effekte, keine Einblendungen (außer den kleinen Kamerabildern)
 - Per USB nur mit der IRL4YOU BOX
 - H.265 per RTMP nur bei Servern mit Enhanced RTMP; wer sicher gehen will, nimmt H.264
-- DJI- und RTMP-Kameras als Bildquelle: nur H.264, höchstens 30 Bilder pro Sekunde, höchstens drei Kameras gleichzeitig
+- DJI- und RTMP-Kameras als Bildquelle: nur H.264, höchstens 30 Bilder pro Sekunde, höchstens vier Kameras gleichzeitig
 - **Mit VPN (zum Beispiel Tailscale)** schickt Android auch die Net-App durch das VPN, wenn die VPN-App alles umleitet (etwa mit einem Exit-Node). Dann meldet die App „Server antwortet nicht“. Lösung: die App in der VPN-App vom VPN ausnehmen. Bei Tailscale (ab Version 1.70): Profilbild antippen, „App-based split tunneling“ wählen und „IRL4YOU Cam Net“ anhaken. Andere VPN-Apps haben dafür „Split Tunneling“ oder „Apps ausnehmen“. Alternativ das VPN zum Senden ausschalten.
 - Dreht man das Handy während einer Übertragung ins Netz zwischen Hoch- und Querformat, ändert sich die Bildgröße, und manche Server verkraften das nicht
 - Bei Handys ohne Sammelkamera entsteht beim Zoomen über eine Linsengrenze eine kurze Lücke im Bild
@@ -119,7 +126,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 - Ein USB-Anschluss lädt das Handy oft langsamer, als die Kamera Strom braucht. Der Akku kann trotz Kabel sinken. Besser ist ein USB-Hub mit eigenem Netzteil, der Daten und Ladestrom liefert. Die Strom-Anzeige der App hilft beim Prüfen.
 - Das Handy wird bei laufender Kamera warm. Wird es zu warm, zuerst die Vorschau ausschalten: Gesendet wird weiter, aber Grafik und Display haben weniger zu tun. Reicht das nicht, 30 statt 60 Bilder pro Sekunde wählen. Nicht jedes Handy schafft 60 Bilder auf Dauer. Die Temperaturanzeige färbt sich, sobald das Handy selbst meldet, dass es drosselt. Für längere Streams zusätzlich für Kühlung sorgen.
 - Liefert Android bei einem Handy nur einen Mikrofonkanal, sendet die App denselben Ton auf beiden Seiten.
-- DJI-Kameras: Drei Kameras zu empfangen, zusammenzusetzen und neu zu kodieren kostet Rechenleistung und Akku. Ein Handy am Netzteil oder an einer Powerbank hilft; wird es warm, die Vorschau ausschalten.
+- DJI-Kameras: Mehrere Kameras zu empfangen, zusammenzusetzen und neu zu kodieren kostet Rechenleistung und Akku, mit vier Kameras besonders viel. Ein Handy am Netzteil oder an einer Powerbank hilft; wird es warm, die Vorschau ausschalten.
 - Voraussetzung: Android 8.0 oder neuer und eine IRL4YOU BOX ab Version 0.5.142 (für den Betrieb ohne Box, mit DJI-Kameras oder Servern, genügt Android 8.0).
 
 ### Stream Link: zweites Handy als weiteres Netz
@@ -143,7 +150,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 1. Das Handy per USB-Kabel mit der IRL4YOU BOX verbinden. Das Kabel muss Daten übertragen, ein reines Ladekabel reicht nicht. Besser ist ein Hub mit eigenem Netzteil.
 2. Android fragt, ob die App auf das USB-Gerät zugreifen darf. Erlauben.
-3. In der App Linse, Codec, Bildrate und Bitrate wählen. Mit dem Start-Knopf unten beginnt die Übertragung. Das Bedienfeld klappt dann weg, das Bild bleibt.
+3. In der App Linse, Codec, Bildrate und Bitrate wählen. Mit dem Start-Knopf unten beginnt die Übertragung. Das Bedienfeld klappt dann weg, das Bild bleibt. In IRL4YOU Cam Net sind die Einstellungen im Menü geordnet: „Stream“ (Codec, Auflösung und Bildrate, Latenz, Bitrate) und „Handykamera“ (Linse, Bildschärfe, Kamera-Info, Spiegeln, Füllen).
 4. Die Box zeigt das Handy als Kamera. Dort wählst du es wie jede andere Kamera aus.
 5. Mit zwei Fingern zoomen, mit dem Umschalt-Symbol zwischen vorderer und hinterer Kamera wechseln, mit dem Mikrofon-Knopf den Ton stumm schalten. Mit Stopp beendest du die Übertragung.
 
@@ -154,6 +161,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 3. Kamera einschalten, „Kamera suchen“ tippen, die Kamera antippen und „Verbinden“ wählen. Bei der ersten Kopplung fragt die Kamera eventuell nach einer Bestätigung.
 4. Hauptcam, Facecam und Ton festlegen, Stelle und Rahmen der kleinen Bilder einstellen.
 5. Im Menü unter „Verbindungen“ ein Ziel wählen und mit dem Start-Knopf senden.
+6. Beim Senden: Kamera-Symbol oben antippen = Hauptbild, Mikrofon antippen = Ton, lang drücken = Kamera aus- oder einblenden.
 
 ### Wofür sie gut ist
 
@@ -171,7 +179,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 - Sends the phone's video and audio to the box over a USB cable, without Wi-Fi
 - Alternatively sends over RTMP, RTMPS, SRT or SRTLA to a server (for example Twitch, YouTube or your own server): address in the menu, with a stream key for RTMP, with stream ID, passphrase (encryption) and latency for SRT; if the connection drops, the app reconnects by itself (IRL4YOU Cam Net only)
-- Use DJI cameras and other cameras that send RTMP as the picture source instead of the phone camera (IRL4YOU Cam Net only): up to three cameras at once (more is not possible yet), one as the main picture and the others as small pictures (picture in picture) with a freely chosen position and frame; main picture and sound can also be switched while sending. DJI cameras are paired and set up over Bluetooth and send to the phone in the same Wi-Fi (for example its hotspot); tested with Osmo Action 4 and Osmo Action 6. For cameras of other brands you enter the server and stream key shown by the app in the camera
+- Use DJI cameras and other cameras that send RTMP as the picture source instead of the phone camera (IRL4YOU Cam Net only): up to four cameras at once (more is not possible), one as the main picture and the others as small pictures (picture in picture) with a freely chosen position and frame; main picture and sound can also be switched while sending. DJI cameras are paired and set up over Bluetooth and send to the phone in the same Wi-Fi (for example its hotspot); tested with Osmo Action 4 and Osmo Action 6. For cameras of other brands you enter the server and stream key shown by the app in the camera
 - Share a connection: next to each connection (pencil) the app shows a QR code. Scan it with the camera app of the other phone, the link opens the app and offers to add it. Alternatively copy the link and use "Verbindung aus Link einfügen" (paste connection from link). The QR code is generated inside the app, with no additional library. It contains address and key, so show it only briefly
 - Back up settings: write connections and settings to one file, encrypted with a password (Android built-ins only), and restore them on the next phone (buttons at the bottom of the connections page)
 - Save several connections (own page, each with a name and a short summary), tick one and send; IRL4YOU Cam Net remembers address, key and networks per connection. While sending, the connections page stays locked so nothing private is on screen
@@ -180,6 +188,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 - Selectable picture sharpness (standard or sharper, with less or stronger camera noise smoothing)
 - Video as H.264 or H.265, up to 1080p at 25, 30, 50 or 60 frames per second; IRL4YOU Cam Net also offers 720p at 25, 30, 50 or 60
 - Audio as AAC in stereo or mono (selectable before going live), microphone can be muted with a button; the menu is also reachable in landscape
+- Graph of the data rate on the phone screen can be shown (tick in the menu, off by default); it is not sent along (IRL4YOU Cam Net only)
 - Level meter for the sound at the bottom edge of the picture and a volume control from −12 to +24 dB, also while streaming
 - Full screen: the preview fills the whole screen (can be switched off, the full picture is always sent); the battery display shows “charging” in green and “falling” in orange or red; the temperature is coloured as soon as the phone itself reports that it is throttling because of heat
 - Selectable bitrate, up to 10 Mbit/s (from 1 Mbit/s with RTMP and SRT); over the network the app lowers the data rate by itself when it is too slow
@@ -197,12 +206,13 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 ### DJI cameras and other RTMP cameras (IRL4YOU Cam Net only)
 
 - **What works:** DJI cameras replace the phone camera as the picture source. The app pairs the camera over Bluetooth, enters the Wi-Fi, starts the stream and receives it on the phone. Tested: Osmo Action 4 and Osmo Action 6. Osmo Action 5 Pro and Osmo Pocket 3 already run with the same Bluetooth control on the IRL4YOU BOX; they have not been tried in this app yet. Osmo Pocket 4 and Osmo Pocket 4 Pro are built in and should work, but unfortunately have not been tested yet
-- **Several cameras:** up to three at once. One camera is the main picture, the others appear small in the picture (picture in picture). You place the facecam and further cameras (side cams) freely at a spot of your choice, with a frame in one of eight colours if you like
-- **Switching:** on the main screen each camera has a symbol with battery level and charging indicator. Tapping it makes it the main picture, the microphone in the symbol sets which camera the sound comes from (default: the facecam). This also works while sending
+- **Several cameras:** up to four at once. One camera is the main picture, the others appear small in the picture (picture in picture). You place the facecam and further cameras (side cams) at one of the fixed spots (corners, top and bottom centre, left and right centre, picture centre) or freely, with a frame in one of eight colours if you like. If two small pictures sit at the same spot, the app moves one beside the other
+- **Switching:** on the main screen each camera has a symbol with number, role, battery level, charging indicator and a status dot (green: pictures arriving, yellow: stalling, ring: camera not there). Tapping the top makes it the main picture, the microphone in the symbol sets which camera the sound comes from (default: the facecam). This also works while sending. **A long press hides and shows a camera:** it stays connected and keeps sending to the phone, only its picture is missing from the sent picture; the sound stays if it comes from that camera. The triangle at the edge folds the row away (in portrait it then sits next to the microphone button). The number is also shown in front of each camera on the camera page
+- **Set per camera:** you choose data rate and image stabilisation per camera on the camera page. "Reconnect all cameras" applies changes while nothing is being sent. The explanatory texts on the camera page are behind a small ⓘ
 - **Other brands:** cameras that only send RTMP are added with a name, and you enter the server and stream key shown by the app in the camera
 - **On to the server:** as usual over RTMP, SRT or SRTLA, with all networks and the bitrate regulation
-- **Staying connected:** with the source switched on, a service with a notification keeps the connection to the cameras, even with the screen off; after the app restarts (for example after an update), cameras that were connected before reconnect on their own
-- **Limits:** the cameras deliver H.264 only and at most 30 frames per second; at most three cameras at the same time are possible (more is not tested); phone and cameras must be in the same Wi-Fi, for example the phone's hotspot or a router
+- **Staying connected:** with the source switched on, a service with a notification keeps the connection to the cameras, even with the screen off; after the app restarts (for example after an update), cameras that were connected before reconnect on their own; "Quit" in the notification disconnects all cameras and closes the app
+- **Limits:** the cameras deliver H.264 only and at most 30 frames per second; at most four cameras at the same time are possible; phone and cameras must be in the same Wi-Fi, for example the phone's hotspot or a router
 - IRL4YOU Cam is not a DJI product and is not affiliated with DJI. Notes on the projects the Bluetooth control follows are in [NOTICE.md](NOTICE.md)
 
 ### What the app does not do
@@ -211,7 +221,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 - No recording on the phone, no filters, no effects, no overlays (except the small camera pictures)
 - Over USB it works only with the IRL4YOU BOX
 - H.265 over RTMP only with servers that support Enhanced RTMP; choose H.264 to be safe
-- DJI and RTMP cameras as the picture source: H.264 only, at most 30 frames per second, at most three cameras at the same time
+- DJI and RTMP cameras as the picture source: H.264 only, at most 30 frames per second, at most four cameras at the same time
 - **With a VPN (for example Tailscale)** Android also sends the Net app through the VPN when the VPN app redirects everything (for example with an exit node). The app then reports "Server antwortet nicht" (server does not answer). Fix: exclude the app from the VPN in the VPN app. With Tailscale (version 1.70 or later): tap your profile picture, choose "App-based split tunneling" and tick "IRL4YOU Cam Net". Other VPN apps call this "split tunneling" or "exclude apps". Alternatively turn the VPN off while sending.
 - Rotating the phone between portrait and landscape during a stream over the network changes the picture size, and some servers cannot handle that
 - On phones without a logical multi-camera, zooming across a lens boundary causes a short gap in the picture
@@ -225,7 +235,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 - A USB port often charges the phone more slowly than the camera uses power. The battery can drop even with the cable plugged in. A USB hub with its own power supply that provides data and charging current works better. The app's current display helps to check this.
 - The phone gets warm while the camera runs. If it gets too warm, switch off the preview first: the stream goes on, but graphics and display have less to do. If that is not enough, choose 30 instead of 60 frames per second. Not every phone can keep up 60 frames for long. The temperature display is coloured as soon as the phone itself reports that it is throttling. For longer streams, provide extra cooling as well.
 - If Android delivers only one microphone channel on a phone, the app sends the same sound on both sides.
-- DJI cameras: receiving three cameras, compositing and re-encoding them costs processing power and battery. A phone on a charger or a power bank helps; if it gets warm, switch the preview off.
+- DJI cameras: receiving several cameras, compositing and re-encoding them costs processing power and battery, with four cameras especially much. A phone on a charger or a power bank helps; if it gets warm, switch the preview off.
 - Requires Android 8.0 or newer and an IRL4YOU BOX version 0.5.142 or later (for use without the box, with DJI cameras or servers, Android 8.0 is enough).
 
 ### Stream Link: a second phone as an extra network
@@ -249,7 +259,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 1. Connect the phone to the IRL4YOU BOX with a USB cable. The cable must carry data, a charge-only cable is not enough. A hub with its own power supply is better.
 2. Android asks whether the app may access the USB device. Allow it.
-3. In the app choose lens, codec, frame rate and bitrate. The start button at the bottom begins the stream. The panel then folds away, the picture stays.
+3. In the app choose lens, codec, frame rate and bitrate. The start button at the bottom begins the stream. The panel then folds away, the picture stays. In IRL4YOU Cam Net the settings in the menu are grouped: "Stream" (codec, resolution and frame rate, latency, bitrate) and "Phone camera" (lens, sharpness, camera info, mirror, fill).
 4. The box shows the phone as a camera. You select it there like any other camera.
 5. Pinch with two fingers to zoom, use the switch icon to change between front and rear camera, use the microphone button to mute. Stop ends the stream.
 
@@ -260,6 +270,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 3. Switch the camera on, tap "Find camera", tap the camera and choose "Connect". On first pairing the camera may ask for confirmation.
 4. Set main cam, facecam and sound, and adjust position and frame of the small pictures.
 5. In the menu under "Connections" choose a destination and send with the start button.
+6. While sending: tap the top of a camera symbol = main picture, tap the microphone = sound, long press = hide or show the camera.
 
 ### What it is good for
 

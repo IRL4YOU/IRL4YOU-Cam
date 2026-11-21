@@ -33,8 +33,8 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 </p>
 
 <p align="center">
-  <img src="bilder/senden.jpg" width="720" alt="Während des Sendens: Status, Akku, Strom / While sending: status, battery, current"><br>
-  <sub>Beim Senden / While sending</sub>
+  <img src="bilder/senden.jpg" width="720" alt="Beim Senden: Menü-Knopf, Graph der Datenrate, Status und Kamera-Knöpfe / While sending: menu button, data-rate graph, status and camera buttons"><br>
+  <sub>Beim Senden: Graph der Datenrate, Status, Knöpfe für Start, Mikrofon und die vier Kameras (Kamerabild hier weggelassen) / While sending: data-rate graph, status, buttons for start, microphone and the four cameras (camera picture left out here)</sub>
 </p>
 
 <p align="center">
@@ -48,13 +48,13 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 </p>
 
 <p align="center">
-  <img src="bilder/dji-knoepfe.jpg" width="720" alt="Kamera-Knöpfe auf dem Hauptbildschirm: Nummer, Rolle, Akku, Statuspunkt, Mikrofon, Dreieck / Camera buttons on the main screen: number, role, battery, status dot, microphone, triangle"><br>
+  <img src="bilder/dji-knoepfe.jpg" width="860" alt="Kamera-Knöpfe auf dem Hauptbildschirm: Nummer, Rolle, Akku, Statuspunkt, Mikrofon, Dreieck / Camera buttons on the main screen: number, role, battery, status dot, microphone, triangle"><br>
   <sub>Kamera-Knöpfe auf dem Hauptbildschirm (nur IRL4YOU Cam Net) / Camera buttons on the main screen (IRL4YOU Cam Net only)</sub>
 </p>
 
 <p align="center">
-  <img src="bilder/dji-ausblenden.jpg" width="720" alt="Lang drücken blendet eine Kamera aus: Bild weg, Mikrofon bleibt gelb / A long press hides a camera: picture gone, microphone stays yellow"><br>
-  <sub>Eine Kamera ausblenden: sie bleibt verbunden, nur ihr Bild fehlt (Beispielbilder) / Hiding a camera: it stays connected, only its picture is missing (sample pictures)</sub>
+  <img src="bilder/dji-ausblenden.jpg" width="720" alt="Lang drücken blendet die Facecam aus: Bild weg, Mikrofon bleibt an und gelb / A long press hides the facecam: picture gone, microphone stays on and yellow"><br>
+  <sub>Facecam ausblenden: sie bleibt verbunden, nur ihr Bild fehlt, das Mikrofon bleibt an (Beispielbilder) / Hiding the facecam: it stays connected, only its picture is missing, the microphone stays on (sample pictures)</sub>
 </p>
 
 <p align="center">
@@ -98,7 +98,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 - **Was geht:** DJI-Kameras ersetzen die Handy-Kamera als Bildquelle. Die App koppelt die Kamera per Bluetooth, trägt das WLAN ein, startet den Stream und nimmt ihn auf dem Handy entgegen. Getestet sind Osmo Action 4 und Osmo Action 6. Osmo Action 5 Pro und Osmo Pocket 3 laufen mit derselben Bluetooth-Steuerung bereits an der IRL4YOU BOX; in dieser App wurden sie noch nicht ausprobiert. Osmo Pocket 4 und Osmo Pocket 4 Pro sind mit eingebaut und sollten funktionieren, wurden aber leider noch nicht getestet
 - **Mehrere Kameras:** bis zu vier gleichzeitig. Eine Kamera ist das Hauptbild, die anderen erscheinen klein im Bild (Bild in Bild). Die Facecam und weitere Kameras (Nebencams) setzt du an eine der festen Stellen (Ecken, Mitte oben und unten, links und rechts Mitte, Bildmitte) oder frei, auf Wunsch mit Rahmen in einer von acht Farben. Liegen zwei kleine Bilder an derselben Stelle, schiebt die App eines daneben
-- **Umschalten:** Auf dem Hauptbildschirm hat jede Kamera ein Symbol mit Nummer, Rolle, Akkustand, Ladeanzeige und Statuspunkt (grün: Bilder kommen an, gelb: stockt, Ring: Kamera nicht da). Antippen oben macht sie zum Hauptbild, das Mikrofon im Symbol legt fest, von welcher Kamera der Ton kommt (Standard: die Facecam). Das geht auch während der Sendung. **Langes Drücken blendet eine Kamera aus und wieder ein:** sie bleibt verbunden und sendet weiter an das Handy, ihr Bild fehlt nur im gesendeten Bild; der Ton bleibt, wenn er von ihr kommt. Mit dem Dreieck am Rand klappst du die Reihe weg (im Hochformat sitzt das Dreieck dann neben dem Mikrofon-Knopf). Die Nummer steht auch auf der Kameraseite vor jeder Kamera
+- **Umschalten:** Auf dem Hauptbildschirm hat jede Kamera ein Symbol mit Nummer, Rolle, Akkustand, Ladeanzeige und Statuspunkt (grün: Bilder kommen an, gelb: stockt, Ring: Kamera nicht da). Antippen oben macht sie zum Hauptbild, das Mikrofon im Symbol legt fest, von welcher Kamera der Ton kommt (Standard: die Facecam). Das geht auch während der Sendung. **Langes Drücken blendet eine Kamera aus und wieder ein:** sie bleibt verbunden und sendet weiter an das Handy, ihr Bild fehlt nur im gesendeten Bild. **Das Mikrofon kann dabei an bleiben:** Kommt der Ton von der ausgeblendeten Kamera (zum Beispiel von der Facecam), wird er weiter gesendet, auch ohne ihr Bild. Alternativ legst du den Ton durch Antippen des Mikrofons einer anderen Kamera auf diese. Mit dem Dreieck am Rand klappst du die Reihe weg (im Hochformat sitzt das Dreieck dann neben dem Mikrofon-Knopf). Die Nummer steht auch auf der Kameraseite vor jeder Kamera
 - **Je Kamera einstellbar:** Datenrate und Bildstabilisierung wählst du auf der Kameraseite für jede Kamera einzeln. „Alle Kameras neu verbinden“ übernimmt Änderungen, wenn gerade nicht gesendet wird. Die Erklärtexte auf der Kameraseite stehen hinter einem kleinen ⓘ
 - **Andere Marken:** Kameras, die nur RTMP senden, trägst du mit einem Namen ein und gibst Server und Stream-Key, die die App anzeigt, in der Kamera ein
 - **Weiter zum Server:** wie sonst per RTMP, SRT oder SRTLA, mit allen Netzen und der Regelung der Datenrate
@@ -207,7 +207,7 @@ Die Beschreibung unten gilt für IRL4YOU Cam Net; IRL4YOU Cam hat keine Server-Z
 
 - **What works:** DJI cameras replace the phone camera as the picture source. The app pairs the camera over Bluetooth, enters the Wi-Fi, starts the stream and receives it on the phone. Tested: Osmo Action 4 and Osmo Action 6. Osmo Action 5 Pro and Osmo Pocket 3 already run with the same Bluetooth control on the IRL4YOU BOX; they have not been tried in this app yet. Osmo Pocket 4 and Osmo Pocket 4 Pro are built in and should work, but unfortunately have not been tested yet
 - **Several cameras:** up to four at once. One camera is the main picture, the others appear small in the picture (picture in picture). You place the facecam and further cameras (side cams) at one of the fixed spots (corners, top and bottom centre, left and right centre, picture centre) or freely, with a frame in one of eight colours if you like. If two small pictures sit at the same spot, the app moves one beside the other
-- **Switching:** on the main screen each camera has a symbol with number, role, battery level, charging indicator and a status dot (green: pictures arriving, yellow: stalling, ring: camera not there). Tapping the top makes it the main picture, the microphone in the symbol sets which camera the sound comes from (default: the facecam). This also works while sending. **A long press hides and shows a camera:** it stays connected and keeps sending to the phone, only its picture is missing from the sent picture; the sound stays if it comes from that camera. The triangle at the edge folds the row away (in portrait it then sits next to the microphone button). The number is also shown in front of each camera on the camera page
+- **Switching:** on the main screen each camera has a symbol with number, role, battery level, charging indicator and a status dot (green: pictures arriving, yellow: stalling, ring: camera not there). Tapping the top makes it the main picture, the microphone in the symbol sets which camera the sound comes from (default: the facecam). This also works while sending. **A long press hides and shows a camera:** it stays connected and keeps sending to the phone, only its picture is missing from the sent picture. **The microphone can stay on:** if the sound comes from the hidden camera (for example the facecam), it is still sent, even without its picture. Alternatively, tap the microphone of another camera to move the sound to that camera. The triangle at the edge folds the row away (in portrait it then sits next to the microphone button). The number is also shown in front of each camera on the camera page
 - **Set per camera:** you choose data rate and image stabilisation per camera on the camera page. "Reconnect all cameras" applies changes while nothing is being sent. The explanatory texts on the camera page are behind a small ⓘ
 - **Other brands:** cameras that only send RTMP are added with a name, and you enter the server and stream key shown by the app in the camera
 - **On to the server:** as usual over RTMP, SRT or SRTLA, with all networks and the bitrate regulation

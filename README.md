@@ -7,6 +7,11 @@
 
 Mehr dazu auf der Webseite: [irl4you.de](https://irl4you.de/irl4you-cam-apps.html) · More on the website: [irl4you.de](https://irl4you.de/en/irl4you-cam-apps.html)
 
+**📣 Tester gesucht / Testers wanted:** IRL4YOU Cam Net und IRL4YOU Stream Link sollen in den **Google Play Store**. Dafür verlangt Google einen Test mit mindestens 12 Leuten über 14 Tage. Wer mitmachen und die App in dieser Zeit installiert lassen will, meldet sich bitte per Nachricht auf [**Discord**](https://discord.gg/7AQRAQAp4C). Danke!
+Both apps are coming to the **Google Play Store**. Google requires a test with at least 12 people over 14 days. If you want to help and keep the app installed during that time, please send a message on [**Discord**](https://discord.gg/7AQRAQAp4C). Thanks!
+
+Fragen und Rückmeldungen / Questions and feedback: [Discord](https://discord.gg/7AQRAQAp4C)
+
 | | <img src="bilder/logo-cam.png" width="56" alt=""><br>**IRL4YOU Cam** | <img src="bilder/logo-net.png" width="56" alt=""><br>**IRL4YOU Cam Net** | <img src="bilder/logo-link.png" width="56" alt=""><br>**IRL4YOU Stream Link** |
 |---|---|---|---|
 | Download | [`IRL4YOU-Cam.apk`](https://github.com/IRL4YOU/IRL4YOU-Cam/releases/latest/download/IRL4YOU-Cam.apk) | [`IRL4YOU-Cam-Net.apk`](https://github.com/IRL4YOU/IRL4YOU-Cam/releases/latest/download/IRL4YOU-Cam-Net.apk) | [`IRL4YOU-Stream-Link.apk`](https://github.com/IRL4YOU/IRL4YOU-Cam/releases/latest/download/IRL4YOU-Stream-Link.apk) |
